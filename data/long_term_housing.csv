@@ -1,5 +1,370 @@
-apartment_name,unit,rent,amenities
-Pine Grove Residences,A101,$1200,"Pool, Gym, Parking"
-Maple Heights Condos,B205,$1500,"Gym, 24hr Security"
-Willow Creek Apartments,C310,$1300,"Parking, Pool"
-Elmwood Manor,D402,$1100,"Pets Allowed, Elevator"
+Apartment Name,Address,City,Zip Code,Price,Room,Amenities,Phone,URL
+Hyland Hills,275 Oakville Dr,Pittsburgh,PA 15220,"$990 - $1,830",Studio - 3 Beds,"Fitness Center, Dishwasher, Pavillon, High-Speed Internet, Gated, Tennis Court, Basketball Court",(412) 472-7280,https://www.apartments.com/hyland-hills-pittsburgh-pa/qhg5jyw/
+Connection at South Side,2984 Sidney St,Pittsburgh,PA 15203,"$1,635 - $3,170",Studio - 2 Beds,"Pets Allowed, Pool",(412) 903-3845,https://www.apartments.com/connection-at-south-side-pittsburgh-pa/2ytyqp8/
+Helm on the Allegheny,2239 Railroad St,Pittsburgh,PA 15222,"$1,022 - $3,620",Studio - 2 Beds,"Pets Allowed, Fitness Center, Pavillon, Maintenance on site, Controlled Access, Concierge, EV Charging",(412) 850-3114,https://www.apartments.com/helm-on-the-allegheny-pittsburgh-pa/wlezgzl/
+Brewers Block,3234 Liberty Ave,Pittsburgh,PA 15201,"$1,480 - $3,690",Studio - 2 Beds,"Pets Allowed, Fitness Center, Pool, Pavillon",(412) 754-4666,https://www.apartments.com/brewers-block-pittsburgh-pa/cr8x23f/
+The Park at Southside Works,2695 S Water St,Pittsburgh,PA 15203,"$1,710 - $4,485",Studio - 2 Beds,"Pets Allowed, Fitness Center, Pool, In Unit Washer & Dryer, Balcony, Patio, Stainless Steel Appliances",(412) 816-8343,https://www.apartments.com/the-park-at-southside-works-pittsburgh-pa/wwklmdk/
+The Julian,419 Melwood Ave,Pittsburgh,PA 15213,Call for Rent,Studio - 2 Beds,"Pets Allowed, Fitness Center, Maintenance on site, Stainless Steel Appliances, Elevator, Rooftop Deck",(412) 547-5204,https://www.apartments.com/the-julian-pittsburgh-pa/cnvenke/
+The Foundmore,300 Hillview Dr,Pittsburgh,PA 15237,"$1,395 - $3,495",Studio - 3 Beds,"Pets Allowed, Fitness Center, Pool, Kitchen, In Unit Washer & Dryer, Pavillon",(412) 534-5415,https://www.apartments.com/the-foundmore-pittsburgh-pa/egccs2p/
+Riverwind at Chatham Park Drive,300 Chatham Park Dr,Pittsburgh,PA 15220,"$990 - $1,999",Studio - 3 Beds,"Pets Allowed, Fitness Center, Pool, Maintenance on site, Laundry Facilities, Playground, Basketball Court",(724) 308-5363,https://www.apartments.com/riverwind-at-chatham-park-drive-pittsburgh-pa/72zf9ey/
+The Brix at 26,75 S 26th St,Pittsburgh,PA 15203,"$1,750 - $2,399",1 Bed,"Pets Allowed, Dishwasher, In Unit Washer & Dryer, Maintenance on site, Disposal, Granite Countertops, Elevator",(412) 754-4807,https://www.apartments.com/the-brix-at-26-pittsburgh-pa/6zm86wt/
+North Pointe Commons,100 Park Plaza Dr,Pittsburgh,PA 15229,"$1,095 - $1,620",1-2 Beds,"Pets Allowed, Fitness Center, Dishwasher, Refrigerator, Kitchen, In Unit Washer & Dryer",(412) 472-7476,https://www.apartments.com/north-pointe-commons-pittsburgh-pa/elz83gm/
+Hillside Meadows-The Perfect Place to Call...,1553 Parkline Dr,Pittsburgh,PA 15227,"$530 - $1,175",Studio - 3 Beds,"Pets Allowed, Refrigerator, Kitchen, Walk-In Closets, Range, Maintenance on site, CableReady",(412) 838-4781,https://www.apartments.com/hillside-meadows-the-perfect-place-to-call-pittsburgh-pa/0tgw3s1/
+Lebanon Vue,400 Cochran Rd,Pittsburgh,PA 15228,"$1,049 - $1,650",1-3 Beds,"Pets Allowed, Refrigerator, Kitchen, Range, Maintenance on site, CableReady, Heat",(412) 960-2390,https://www.apartments.com/lebanon-vue-pittsburgh-pa/3cw2ygd/
+Holiday Park Apartments and Townhomes,80 Sandune Dr,Pittsburgh,PA 15239,"$867 - $1,930",Studio - 3 Beds,"Pets Allowed, Dishwasher, Refrigerator, Kitchen, In Unit Washer & Dryer, Walk-In Closets",(412) 744-3359,https://www.apartments.com/holiday-park-apartments-and-townhomes-pittsburgh-pa/l6dpyve/
+The Docks Apartments and Townhomes,501 Riverfront Dr,Pittsburgh,PA 15238,"$1,540 - $4,635",1-3 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, In Unit Washer & Dryer",(412) 871-6702,https://www.apartments.com/the-docks-apartments-and-townhomes-pittsburgh-pa/wjt971j/
+930 Penn Ave,930 Penn Ave,Pittsburgh,PA 15222,"$2,400 - $3,050",2 Beds,"Pets Allowed, Dishwasher, Refrigerator, Kitchen, In Unit Washer & Dryer, Walk-In Closets",(412) 960-2759,https://www.apartments.com/930-penn-ave-pittsburgh-pa/b91lvx8/
+The Pennsylvanian,1100 Liberty Ave,Pittsburgh,PA 15222,"$1,363 - $3,524",Studio - 2 Beds,"Pets Allowed, Fitness Center, Dishwasher, Refrigerator, Kitchen, In Unit Washer & Dryer",(412) 455-5813,https://www.apartments.com/the-pennsylvanian-pittsburgh-pa/xtp479p/
+Bryn Mawr,100 Bryn Mawr Ct,Pittsburgh,PA 15221,"$1,158 - $4,111",1-2 Beds,"Cats Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, Kitchen",(724) 558-6837,https://www.apartments.com/bryn-mawr-pittsburgh-pa/4zpghnk/
+Crane Village Apartments,651 Oaklynn Ct,Pittsburgh,PA 15220,"$950 - $1,440",Studio - 3 Beds,"Pets Allowed, Pool, Dishwasher, Kitchen, In Unit Washer & Dryer, Walk-In Closets",(412) 838-4789,https://www.apartments.com/crane-village-apartments-pittsburgh-pa/j5zf8h7/
+Chestnut Ridge Apartments,3200 Chestnut Ridge Dr,Pittsburgh,PA 15205,"$995 - $1,720",1-2 Beds,"Pets Allowed, Fitness Center, Pool, In Unit Washer & Dryer, Pavillon, Tennis Court",(412) 668-1112,https://www.apartments.com/chestnut-ridge-apartments-pittsburgh-pa/thnezhc/
+City View Apartments,1420 Centre Ave,Pittsburgh,PA 15219,"$1,134 - $3,259",Studio - 4 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, Kitchen",(412) 896-0734,https://www.apartments.com/city-view-apartments-pittsburgh-pa/l1d4klg/
+"Franklin West Apartments, Leasing Office",272 Shady Ave,Pittsburgh,PA 15206,"$1,275 - $2,845",1-2 Beds,"Pets Allowed, Dishwasher, Refrigerator, Kitchen, In Unit Washer & Dryer, Walk-In Closets",(412) 318-9429,https://www.apartments.com/franklin-west-apartments-leasing-office-pittsburgh-pa/vs057fe/
+The Roosevelt Building,607-609 Penn Ave,Pittsburgh,PA 15222,"$1,400 - $1,700",1 Bed,"Fitness Center, Dishwasher, Refrigerator, Kitchen, Walk-In Closets, Pavillon",(412) 231-9408,https://www.apartments.com/the-roosevelt-building-pittsburgh-pa/dd0glml/
+Carson Street Commons,2525-2539 E Carson St,Pittsburgh,PA 15203,"$1,530 - $3,850",1-2 Beds,"Pets Allowed, Fitness Center, Dishwasher, Refrigerator, Kitchen, In Unit Washer & Dryer",(412) 547-9869,https://www.apartments.com/carson-street-commons-pittsburgh-pa/bypghtc/
+Grandview Pointe Apartments,1411 Grandview Ave,Pittsburgh,PA 15211,"$1,565 - $8,908",1-2 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, Kitchen",(412) 472-7533,https://www.apartments.com/grandview-pointe-apartments-pittsburgh-pa/5k0yx4p/
+Royal York Apartments,3955 Bigelow Blvd,Pittsburgh,PA 15213,"$1,700 - $2,700",2-3 Beds,"Dishwasher, CableReady, Controlled Access, Hardwood Floors, Elevator, Laundry Facilities, Rooftop Deck",(412) 407-8926,https://www.apartments.com/royal-york-apartments-pittsburgh-pa/whft4ml/
+Park View Apartments,10 Allegheny Ctr,Pittsburgh,PA 15212,"$1,035 - $3,760",Studio - 2 Beds,"Pets Allowed, Fitness Center, Dishwasher, Refrigerator, Kitchen, Walk-In Closets",(412) 455-3296,https://www.apartments.com/park-view-apartments-pittsburgh-pa/8blhq53/
+Oakland Apartments,4629 Bayard St,Pittsburgh,PA 15213,"$1,029 - $5,000",Studio - 5 Beds,"Dishwasher, Refrigerator, Kitchen, CableReady, Heat, High-Speed Internet",(412) 801-7215,https://www.apartments.com/oakland-apartments-pittsburgh-pa/6e8q1dr/
+900 Penn Ave,900 Penn Ave,Pittsburgh,PA 15222,"$1,379 - $2,399",Studio - 2 Beds,"Pets Allowed, Fitness Center, Dishwasher, Refrigerator, Kitchen, In Unit Washer & Dryer",(412) 688-6750,https://www.apartments.com/900-penn-pittsburgh-pa/xg5c9vp/
+Nineteen North Apartments and Townhomes,1050 Nineteen North Dr,Pittsburgh,PA 15237,"$1,305 - $3,988",1-3 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, Kitchen",(724) 623-2648,https://www.apartments.com/nineteen-north-apartments-and-townhomes-pittsburgh-pa/g7clc8y/
+The Yards at 3 Crossings,2645 Railroad St,Pittsburgh,PA 15222,"$1,381 - $6,186",Studio - 2 Beds,"Pets Allowed, Fitness Center, Pool, Maintenance on site, Stainless Steel Appliances, Grill, Lounge",(412) 668-5198,https://www.apartments.com/the-yards-at-3-crossings-pittsburgh-pa/qeqhmgz/
+Sk Management,795-10 Pine Valley Dr,Pittsburgh,PA 15239,"$850 - $1,700",1-3 Beds,"Cats Allowed, Dishwasher, Refrigerator, Kitchen, In Unit Washer & Dryer, Walk-In Closets",(724) 578-5258,https://www.apartments.com/sk-management-pittsburgh-pa/m11s1dl/
+SkyVue (PA),3333 Forbes Ave,Pittsburgh,PA 15213,"$1,125 - $2,300",Studio - 3 Beds,"Pets Allowed, Fitness Center, Dishwasher, Refrigerator, Kitchen, Walk-In Closets, Pavillon",(412) 960-8816,https://www.apartments.com/skyvue-pa-pittsburgh-pa/4lw72qk/
+Eastside Bond,6105 Spirit St,Pittsburgh,PA 15206,"$1,798 - $4,858",Studio - 2 Beds,"Pets Allowed, Fitness Center, Pool, Refrigerator, Kitchen, In Unit Washer & Dryer",(412) 816-9302,https://www.apartments.com/eastside-bond-pittsburgh-pa/cj0pksg/
+Heinz Lofts,300 Heinz St,Pittsburgh,PA 15212,"$1,549 - $3,284",1-3 Beds,"Pets Allowed, Fitness Center, In Unit Washer & Dryer",(412) 744-8053,https://www.apartments.com/heinz-lofts-pittsburgh-pa/m0k293k/
+Oak Hill Apartments,22 Strayhorn Way,Pittsburgh,PA 15213,"$1,460 - $2,195",Studio - 3 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, Kitchen",(412) 593-5568,https://www.apartments.com/oak-hill-apartments-pittsburgh-pa/m4pz40l/
+Encore Apartments,100 7th St,Pittsburgh,PA 15222,"$1,943 - $5,415",1-2 Beds,"Pets Allowed, Fitness Center, Dishwasher, Kitchen, In Unit Washer & Dryer, Balcony",(412) 455-3832,https://www.apartments.com/encore-apartments-pittsburgh-pa/emw3glm/
+The Foundry at 41st,4107 Willow St,Pittsburgh,PA 15201,"$1,548 - $3,210",Studio - 2 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, Kitchen",(844) 572-0310,https://www.apartments.com/the-foundry-at-41st-pittsburgh-pa/3n08zge/
+Arsenal 201,3922 Foster St,Pittsburgh,PA 15201,"$742 - $9,770",Studio - 3 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, Kitchen",(412) 960-1694,https://www.apartments.com/arsenal-201-pittsburgh-pa/49f41lj/
+Coda on Centre,5765 Centre Ave,Pittsburgh,PA 15206,"$1,825 - $12,573",Studio - 2 Beds,"Pets Allowed, Fitness Center, Dishwasher, Refrigerator, In Unit Washer & Dryer, Disposal, Microwave",(412) 404-0145,https://www.apartments.com/coda-on-centre-pittsburgh-pa/y9dvdqv/
+Park West 205 Apartment Homes,1000 Park West Place,Pittsburgh,PA 15205,"$1,450 - $3,016",1-3 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Pavillon, Disposal",(724) 315-3302,https://www.apartments.com/park-west-205-apartment-homes-pittsburgh-pa/c78f3bf/
+Glasshouse Pittsburgh,160 E Station Square Dr,Pittsburgh,PA 15219,Call for Rent,1-2 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, In Unit Washer & Dryer",(412) 784-6304,https://www.apartments.com/glasshouse-pittsburgh-pittsburgh-pa/mbet9fh/
+Terminal 21,615 First Ave,Pittsburgh,PA 15219,"$1,284 - $2,260",Studio - 2 Beds,"Pets Allowed, Fitness Center, In Unit Washer & Dryer, Microwave, Granite Countertops",(412) 385-6268,https://www.apartments.com/terminal-21-pittsburgh-pa/eqe2jvp/
+Smallman Flats,2908 Smallman St,Pittsburgh,PA 15201,"$1,250 - $1,700",Studio - 1 Bed,"Dishwasher, Refrigerator, Range, Disposal, Microwave, Granite Countertops, Elevator",(412) 278-7793,https://www.apartments.com/smallman-flats-pittsburgh-pa/kw5yr38/
+The District,1759 Waterfront Pl,Pittsburgh,PA 15222,"$1,522 - $5,380",Studio - 3 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, In Unit Washer & Dryer",(412) 455-8838,https://www.apartments.com/the-district-pittsburgh-pa/exkm0fm/
+Industry Pittsburgh,5819 Centre Ave,Pittsburgh,PA 15206,"$2,190 - $4,970",Studio - 2 Beds,"Pets Allowed, Fitness Center, Controlled Access, Elevator",(412) 924-5844,https://www.apartments.com/industry-pittsburgh-pittsburgh-pa/eec56qm/
+TRELLIS NORTH FAYETTE Apartments,1500 Park Ln,Pittsburgh,PA 15275,"$1,265 - $1,874",Studio - 2 Beds,"Pets Allowed, In Unit Washer & Dryer, Heat, High-Speed Internet, Stainless Steel Appliances, Controlled Access",(412) 528-6238,https://www.apartments.com/trellis-north-fayette-apartments-pittsburgh-pa/88cz940/
+The Franklin on Penn,2817 Penn Ave,Pittsburgh,PA 15222,"$1,400 - $2,100",Studio,"Dishwasher, In Unit Washer & Dryer, Disposal, Stainless Steel Appliances, Controlled Access, Granite Countertops, Elevator",(412) 871-6191,https://www.apartments.com/the-franklin-on-penn-pittsburgh-pa/j1w2l26/
+The Artisan at Robinson,301 High Tower Blvd,Pittsburgh,PA 15205,"$1,695 - $2,625",1-3 Beds,"Pets Allowed, Fitness Center, Pool",(724) 717-2324,https://www.apartments.com/the-artisan-at-robinson-pittsburgh-pa/7bbn1nx/
+LiveWell,550 Wood St,Pittsburgh,PA 15222,"$1,440 - $4,683",Studio - 3 Beds,"Fitness Center, Package Service, Hardwood Floors, Concierge",(412) 899-2847,https://www.apartments.com/livewell-pittsburgh-pa/tj69y3b/
+The Preserve at Heinz,950 Progress St,Pittsburgh,PA 15212,"$1,199 - $2,060",1-2 Beds,"Fitness Center, Maintenance on site, Business Center, Controlled Access, Elevator",(412) 231-9831,https://www.apartments.com/the-preserve-at-heinz-pittsburgh-pa/h7865f1/
+The Cork Factory Lofts,2349 Railroad St,Pittsburgh,PA 15222,"$1,799 - $5,800",1-3 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, Kitchen",(412) 517-7778,https://www.apartments.com/the-cork-factory-lofts-pittsburgh-pa/5tcr5qn/
+Emerald Gardens,2400 Village Rd,Pittsburgh,PA 15205,"$1,025 - $1,520",1-3 Beds,"Pets Allowed, Fitness Center, Dishwasher, Refrigerator, Kitchen, Walk-In Closets",(412) 520-3056,https://www.apartments.com/emerald-gardens-pittsburgh-pa/2gw33r9/
+NORMANDY,5530 5th Ave,Pittsburgh,PA 15232,$910,Studio,"Cats Allowed, Dishwasher, Refrigerator, Kitchen, Walk-In Closets, Range",(412) 754-3699,https://www.apartments.com/normandy-pittsburgh-pa/0wmbfg3/
+Shadyside Apartments,5925 5th Ave,Pittsburgh,PA 15232,"$999 - $1,459",Studio - 1 Bed,"Dishwasher, Kitchen, Disposal, Microwave, High-Speed Internet, Stainless Steel Appliances",(412) 816-9650,https://www.apartments.com/shadyside-apartments-pittsburgh-pa/pdep2qt/
+The Alden,5492 Youngridge Dr,Pittsburgh,PA 15236,"$734 - $1,154",Studio - 3 Beds,"Pets Allowed, Fitness Center, Pool, Kitchen, In Unit Washer & Dryer, Pavillon",(412) 231-9420,https://www.apartments.com/the-alden-pittsburgh-pa/9ws6nj7/
+Kennedy Highlands,200 Adams Dr,Mckees Rocks,PA 15136,"$1,020 - $2,270",1-3 Beds,"Pets Allowed, Fitness Center, Pool, Dishwasher, Refrigerator, Kitchen",(724) 623-2595,https://www.apartments.com/kennedy-highlands-mckees-rocks-pa/3r71yrf/
+The Regency,1785 McKees Rocks Rd,McKees Rocks,PA 15136,"$1,350 - $2,500",1-3 Beds,"Pets Allowed, Fitness Center, Pool, In Unit Washer & Dryer, Stainless Steel Appliances, Controlled Access, Elevator",(724) 623-2930,https://www.apartments.com/the-regency-mckees-rocks-pa/059slt0/
+City Vista,325 Elizabeth Dr,Pittsburgh,PA 15220,"$1,722 - $2,566",Studio - 3 Beds,,(412) 903-3524,https://www.apartments.com/city-vista-pittsburgh-pa/f57j5yv/
+Hudson Oakland (Semple),515 Semple St,Pittsburgh,PA 15213,"$1,400 - $2,100",2 Beds,,(412) 231-9064,https://www.apartments.com/hudson-oakland-semple-pittsburgh-pa/zy75t0y/
+North Shore Flats,220 N Shore Dr,Pittsburgh,PA 15212,"$1,865 - $4,378",1-2 Beds,,(412) 515-3914,https://www.apartments.com/north-shore-flats-pittsburgh-pa/fs3wz0r/
+Castle Ridge Apartments,850 Baldwin St,Pittsburgh,PA 15234,"$1,325 - $1,870",1-3 Beds,,(412) 226-4013,https://www.apartments.com/castle-ridge-apartments-pittsburgh-pa/rn8xhw1/
+Ridge at Robinson,1501 Meredith Dr,Pittsburgh,PA 15205,"$1,452 - $2,289",1-3 Beds,,(724) 623-2657,https://www.apartments.com/ridge-at-robinson-pittsburgh-pa/xlh2qsp/
+The View North Hills,1000 Johnanna Dr,Pittsburgh,PA 15237,"$1,263 - $1,781",1-2 Beds,,(412) 903-3070,https://www.apartments.com/the-view-north-hills-pittsburgh-pa/cwgdbxe/
+Brentmoor at Penn Center,1100 Penn Center Blvd,Pittsburgh,PA 15235,"$1,186 - $1,981",Studio - 2 Beds,,(724) 558-8022,https://www.apartments.com/brentmoor-at-penn-center-pittsburgh-pa/f01j4rr/
+Kaufmanns,434 5th Ave,Pittsburgh,PA 15219,"$1,437 - $4,318",Studio - 2 Beds,,(412) 924-8081,https://www.apartments.com/kaufmanns-pittsburgh-pa/db3d2xh/
+Carriage Park Apartments,300 Chatham Park Dr,Pittsburgh,PA 15220,"$970 - $1,480",Studio - 3 Beds,,(412) 226-4846,https://www.apartments.com/carriage-park-apartments-pittsburgh-pa/x3e5m3m/
+Clyde Street Apartments,4800 Ellsworth Ave,Pittsburgh,PA 15213,"$1,470 - $1,765",1-3 Beds,,(412) 407-8907,https://www.apartments.com/clyde-street-apartments-pittsburgh-pa/zn996xx/
+Briaridge Apartments,100 Briaridge Dr,Pittsburgh,PA 15221,"$940 - $1,049",1-2 Beds,,(412) 871-6479,https://www.apartments.com/briaridge-apartments-pittsburgh-pa/0txlbx2/
+Live South Side,97 S 18th St,Pittsburgh,PA 15203,"$1,849",2 Beds,,(412) 568-3977,https://www.apartments.com/live-south-side-pittsburgh-pa/hf3z3z0/
+The School House,500 Tripoli St,Pittsburgh,PA 15212,"$1,325 - $2,300",Studio - 2 Beds,,(412) 231-9616,https://www.apartments.com/the-school-house-pittsburgh-pa/dly951h/
+Hamilton Place,100 Addie Ct,Pittsburgh,PA 15234,"$1,310 - $1,990",Studio - 2 Beds,,(412) 278-7038,https://www.apartments.com/hamilton-place-pittsburgh-pa/tl3qth9/
+Maiden Bridge and Canongate Apartment Homes,100 White Hampton Ln,Pittsburgh,PA 15236,"$1,295 - $4,058",Studio - 3 Beds,,(570) 634-8379,https://www.apartments.com/maiden-bridge-and-canongate-apartment-homes-pittsburgh-pa/qvg2rkx/
+Chateau Perry,951 Perry Hwy,Pittsburgh,PA 15237,"$1,110 - $3,772",1-3 Beds,,(412) 318-9166,https://www.apartments.com/chateau-perry-pittsburgh-pa/rn42b71/
+Bear Run Village,100 Bear Run Dr,Pittsburgh,PA 15237,"$1,340 - $3,076",1-3 Beds,,(412) 318-8816,https://www.apartments.com/bear-run-village-pittsburgh-pa/k9frr2c/
+The Ashby at South Hills Village Station,1100 Village Dr,Pittsburgh,PA 15241,"$1,320 - $4,509",1-3 Beds,,(412) 851-6490,https://www.apartments.com/the-ashby-at-south-hills-village-station-pittsburgh-pa/gdcp1px/
+The Residences @ The GARDEN,6 W North Ave,Pittsburgh,PA 15212,"$1,649 - $2,999",1-2 Beds,,(412) 453-7596,https://www.apartments.com/the-residences-the-garden-pittsburgh-pa/qpvwzbw/
+Pleasant Hills,500 E Bruceton Rd,Pittsburgh,PA 15236,"$1,331 - $3,530",1-2 Beds,,(412) 693-6840,https://www.apartments.com/pleasant-hills-pittsburgh-pa/fleqjbv/
+First Avenue Lofts,422-440 1st Ave,Pittsburgh,PA 15219,"$1,450 - $1,850",1-2 Beds,,(412) 231-9346,https://www.apartments.com/first-avenue-lofts-pittsburgh-pa/jchhzf4/
+Mountvue Apartments,5 Grandview Ave,Pittsburgh,PA 15211,"$1,275 - $2,250",Studio - 2 Beds,,(412) 231-9930,https://www.apartments.com/mountvue-apartments-pittsburgh-pa/8vgwqd2/
+Market Square Place,222 Fifth Ave,Pittsburgh,PA 15222,"$1,495 - $3,100",Studio - 2 Beds,,(412) 871-6470,https://www.apartments.com/market-square-place-pittsburgh-pa/kzem0mc/
+Nob Hill of Pittsburgh,3000 Swallow Hill Rd,Pittsburgh,PA 15220,"$1,188 - $4,739",Studio - 3 Beds,,(412) 278-7679,https://www.apartments.com/nob-hill-of-pittsburgh-pittsburgh-pa/g75gtty/
+Club at North Hills Apartment Homes,700 Duncan Ave,Pittsburgh,PA 15237,"$1,285 - $3,120",1-2 Beds,,(878) 217-6104,https://www.apartments.com/club-at-north-hills-apartment-homes-pittsburgh-pa/m35tbqk/
+Baumhaus Apartments,5522 Baum Blvd,Pittsburgh,PA 15232,"$1,800 - $3,600",Studio - 2 Beds,,(412) 404-0143,https://www.apartments.com/baumhaus-apartments-pittsburgh-pa/gxewllw/
+The Washington at Chatham,112 Washington Pl,Pittsburgh,PA 15219,"$1,500 - $1,835",Studio - 2 Beds,,(412) 455-8808,https://www.apartments.com/the-washington-at-chatham-pittsburgh-pa/k7mqmg9/
+Mulberry Lofts,3205 Penn Ave,Pittsburgh,PA 15201,"$1,558 - $2,887",Studio - 2 Beds,,(412) 872-2535,https://www.apartments.com/mulberry-lofts-pittsburgh-pa/9csb8k4/
+Webster Hall,101 N Dithridge St,Pittsburgh,PA 15213,"$1,370",Studio,,(412) 385-6252,https://www.apartments.com/webster-hall-pittsburgh-pa/bd2hm3b/
+Fifth Avenue School Lofts,1800 Fifth Ave,Pittsburgh,PA 15219,"$2,200",2 Beds,,(412) 455-8216,https://www.apartments.com/fifth-avenue-school-lofts-pittsburgh-pa/0jb5cg0/
+Westpointe Apartment Homes,2000 Westpointe Dr,Pittsburgh,PA 15205,"$1,040 - $2,815",1-3 Beds,,(412) 668-1232,https://www.apartments.com/westpointe-apartment-homes-pittsburgh-pa/vgmf5zd/
+Crawford Square Apartments,510 Protectory Pl,Pittsburgh,PA 15219,"$1,408 - $2,636",1-3 Beds,,(412) 693-0991,https://www.apartments.com/crawford-square-apartments-pittsburgh-pa/q5w7s4y/
+Apartments at River View,300 Liberty Ave,Pittsburgh,PA 15222,"$1,149 - $5,997",Studio - 3 Beds,,(412) 838-4534,https://www.apartments.com/apartments-at-river-view-pittsburgh-pa/6ee0v3r/
+Lot 24 Apartments,2404 Railroad St,Pittsburgh,PA 15222,"$1,898 - $2,545",1 Bed,,(412) 903-3876,https://www.apartments.com/lot-24-apartments-pittsburgh-pa/gd6mkey/
+Bracken House,100 Anderson St,Pittsburgh,PA 15212,"$1,495 - $3,701",1-2 Beds,,(412) 754-4463,https://www.apartments.com/bracken-house-pittsburgh-pa/5bgqxtq/
+Edge 1909,1909 Waterfront Pl,Pittsburgh,PA 15222,"$1,661 - $8,785",1-2 Beds,,(412) 318-9470,https://www.apartments.com/edge-1909-pittsburgh-pa/33nh2kd/
+Bloomfield Apartments,5700 Bryant St,Pittsburgh,PA 15206,"$989 - $1,785",Studio - 2 Beds,,(412) 754-7951,https://www.apartments.com/bloomfield-apartments-pittsburgh-pa/89lke41/
+Crossroad Towers,200 Sophia Ave,Pittsburgh,PA 15236,"$1,190 - $1,950",Studio - 2 Beds,,(412) 754-7408,https://www.apartments.com/crossroad-towers-pittsburgh-pa/knydk2c/
+The Commonwealth Building,316 4th Ave,Pittsburgh,PA 15222,"$1,275 - $2,695",Studio - 2 Beds,,(412) 385-0783,https://www.apartments.com/the-commonwealth-building-pittsburgh-pa/85vsmz3/
+University Commons,308 Mckee Pl,Pittsburgh,PA 15213,"$1,115 - $1,716",1-2 Beds,,(412) 455-3941,https://www.apartments.com/university-commons-pittsburgh-pa/ez9devn/
+Fieldbrook Apartments,1425 Mcfarland Rd,Pittsburgh,PA 15216,"$799 - $1,225",1-2 Beds,,(412) 960-1813,https://www.apartments.com/fieldbrook-apartments-pittsburgh-pa/tbrqq08/
+The Waterfront Apartments and Townhomes,611 E Waterfront Dr,Munhall,PA 15120,"$1,600 - $4,882",1-3 Beds,,(570) 634-8208,https://www.apartments.com/the-waterfront-apartments-and-townhomes-munhall-pa/8gvtzh1/
+1569 Duncan Dr,1569 Duncan Dr,Pittsburgh,PA 15237,"$2,250","
+                                    3 Beds
+                                ",,(844) 731-1083,https://www.apartments.com/1569-duncan-dr-pittsburgh-pa/syqejb5/
+Chalfont Apartments,4742 Centre Ave,Pittsburgh,PA 15213,"$2,418","
+                                    Studio - 2 Beds
+                                ",,(412) 960-1070,https://www.apartments.com/chalfont-apartments-pittsburgh-pa/3smnm9f/
+1709 FIFTH,1709 5th Ave,Pittsburgh,PA 15219,"$1,470 - $2,900","
+                                    Studio - 2 Beds
+                                ",,(412) 693-7396,https://www.apartments.com/1709-fifth-pittsburgh-pa/zejsckw/
+St. Clair Woods Apartments,1000 Painters Dr,Pittsburgh,PA 15228,"$1,525","
+                                    2 Beds
+                                ",,(412) 693-6308,https://www.apartments.com/st-clair-woods-apartments-pittsburgh-pa/cp673fe/
+The Ell on Ellsworth (A Hudson Property),5420 Ellsworth Ave,Pittsburgh,PA 15232,"$2,350","
+                                    3 Beds
+                                ",,(412) 850-4664,https://www.apartments.com/the-ell-on-ellsworth-a-hudson-property-pittsburgh-pa/mx9m19j/
+531 Collins St,531 Collins St,Pittsburgh,PA 15206,"$1,750","
+                                    3 Beds
+                                ",,(412) 744-8568,https://www.apartments.com/531-collins-st-pittsburgh-pa/zr0fprw/
+5836 Alderson St,5836 Alderson St,Pittsburgh,PA 15217,"$1,650","
+                                    2 Beds
+                                ",,(412) 776-0627,https://www.apartments.com/5836-alderson-st-pittsburgh-pa/gw6281y/
+The Clark Building,717 Liberty Ave,Pittsburgh,PA 15222,"$1,420 - $1,935","
+                                    1-2 Beds
+                                ",,(570) 634-8046,https://www.apartments.com/the-clark-building-pittsburgh-pa/r2yslm2/
+Allegheny Branch House Lofts,810 W North Ave,Pittsburgh,PA 15233,"$1,329 - $2,699","
+                                    Studio - 2 Beds
+                                ",,(412) 284-6744,https://www.apartments.com/allegheny-branch-house-lofts-pittsburgh-pa/7n3dcby/
+Hudson Oakland,300-306 Craft Ave,Pittsburgh,PA 15213,"$2,100","
+                                    3 Beds
+                                ",,(412) 816-9525,https://www.apartments.com/hudson-oakland-pittsburgh-pa/2q5c68b/
+Brittany Apartments,1717 Penn Ave,Pittsburgh,PA 15221,"$895 - $2,693","
+                                    Studio - 2 Beds
+                                ",,(412) 385-6593,https://www.apartments.com/brittany-apartments-pittsburgh-pa/sng0556/
+Baywood,119-125 Baywood Ave,Pittsburgh,PA 15228,"$1,000","
+                                    1 Bed
+                                ",,(412) 754-3561,https://www.apartments.com/baywood-pittsburgh-pa/hpvwnp1/
+Park House Flats,372-374 Joncaire St,Pittsburgh,PA 15213,"$1,500 - $3,400","
+                                    2 Beds
+                                ",,(412) 420-6296,https://www.apartments.com/park-house-flats-pittsburgh-pa/te72f68/
+Village Square,600 Kelly Ave,Pittsburgh,PA 15221,"$1,250","
+                                    2 Beds
+                                ",,(412) 871-6289,https://www.apartments.com/village-square-pittsburgh-pa/0hnjne3/
+Allegheny Apartments,429 Forbes Ave,Pittsburgh,PA 15219,"$1,190 - $2,150","
+                                    1-2 Beds
+                                ",,(412) 744-8596,https://www.apartments.com/allegheny-apartments-pittsburgh-pa/zkjt6xw/
+Pleasantview Place,1000 Wingate Dr,Pittsburgh,PA 15205,"$900 - $1,900","
+                                    Studio - 3 Beds
+                                ",,(412) 534-6279,https://www.apartments.com/pleasantview-place-pittsburgh-pa/7v87dzx/
+Cornerstone Village Apartments,185 Larimer Ave,Pittsburgh,PA 15206,"$1,171 - $2,145","
+                                    1-3 Beds
+                                ",,(412) 924-5242,https://www.apartments.com/cornerstone-village-apartments-pittsburgh-pa/5wkmn7n/
+Tiffany Apartments,925 California Ave,Pittsburgh,PA 15202,"$950 - $1,030","
+                                    1-2 Beds
+                                ",,(412) 207-3406,https://www.apartments.com/tiffany-apartments-pittsburgh-pa/3qxfevg/
+Homestead Masonic Hall Lofts,338 E 9th Ave,Homestead,PA 15120,"$1,095 - $1,799","
+                                    Studio - 1 Bed
+                                ",,(412) 231-9740,https://www.apartments.com/homestead-masonic-hall-lofts-homestead-pa/fb2v81s/
+Shadyside Commons,401 Amberson Ave,Pittsburgh,PA 15232,"$2,250 - $3,025","
+                                    1-2 Beds
+                                ",,(412) 754-5734,https://www.apartments.com/shadyside-commons-pittsburgh-pa/f0n2tvs/
+River Oaks,1 Oakhurst Cir,Pittsburgh,PA 15215,"$1,609 - $3,544","
+                                    1-4 Beds
+                                ",,(412) 517-7743,https://www.apartments.com/river-oaks-pittsburgh-pa/wyqj97h/
+Williamsburg South,401-435 Abbeyville Rd,Pittsburgh,PA 15228,"$1,259 - $1,617","
+                                    1-2 Beds
+                                ",,(412) 851-6062,https://www.apartments.com/williamsburg-south-pittsburgh-pa/nw9njzm/
+Landmark on Carson Apartments,2008-2012 E Carson St,Pittsburgh,PA 15203,"$1,740 - $1,830","
+                                    3 Beds
+                                ",,(412) 515-3145,https://www.apartments.com/landmark-on-carson-apartments-pittsburgh-pa/xkl180n/
+Lofts of Mount Washington,200 Cowan St,Pittsburgh,PA 15211,"$1,900 - $2,200","
+                                    Studio - 3 Beds
+                                ",,(412) 201-0719,https://www.apartments.com/lofts-of-mount-washington-pittsburgh-pa/vgbfp6g/
+Hot Metal Flats,2915 Sidney St,Pittsburgh,PA 15203,"$1,405 - $2,285","
+                                    Studio - 2 Beds
+                                ",,(412) 453-7513,https://www.apartments.com/hot-metal-flats-pittsburgh-pa/bgv9178/
+3030 South Water Apartments,3030 S Water St,Pittsburgh,PA 15203,"$1,550 - $1,720","
+                                    1 Bed
+                                ",,(412) 201-0264,https://www.apartments.com/3030-south-water-apartments-pittsburgh-pa/h7w8hz0/
+3514 Butler St,3514 Butler St,Pittsburgh,PA 15201,"$2,000 - $2,600","
+                                    2 Beds
+                                ",,(908) 895-6791,https://www.apartments.com/3514-butler-st-pittsburgh-pa/j7b1284/
+Bakery Living,6350 Penn Ave,Pittsburgh,PA 15206,"$1,825 - $3,525","
+                                    Studio - 2 Beds
+                                ",,(724) 558-8067,https://www.apartments.com/bakery-living-pittsburgh-pa/3qd9wgf/
+The Reserve at Summerset at Frick Park,1435 Parkview Blvd,Pittsburgh,PA 15217,"$1,575 - $2,865","
+                                    1-3 Beds
+                                ",,(412) 816-9172,https://www.apartments.com/the-reserve-at-summerset-at-frick-park-pittsburgh-pa/wm9hrck/
+"5635-5645 Hobart, Pittsburgh, PA 15217",5635-5645 Hobart St,Pittsburgh,PA 15217,"$1,695 - $1,895","
+                                    2 Beds
+                                ",,(412) 284-5846,https://www.apartments.com/5635-5645-hobart-pittsburgh-pa-15217-pittsburgh-pa/qjrl9gz/
+The Cascades Apartments and Townhomes,100 E West Dr,Pittsburgh,PA 15237,"$1,200 - $3,236","
+                                    1-2 Beds
+                                ",,(878) 231-3159,https://www.apartments.com/the-cascades-apartments-and-townhomes-pittsburgh-pa/11c4bh4/
+The Gateway at Summerset,1876 Parkview Blvd,Pittsburgh,PA 15217,"$1,730 - $2,350","
+                                    1-2 Beds
+                                ",,(412) 566-8709,https://www.apartments.com/the-gateway-at-summerset-pittsburgh-pa/dhw10rh/
+Cosmopolitan Apartments,3001 McKnight East Dr,Pittsburgh,PA 15237,"$1,559 - $2,184","
+                                    1-2 Beds
+                                ",,(878) 231-3311,https://www.apartments.com/cosmopolitan-apartments-pittsburgh-pa/zrfq8ex/
+The Flats at Southside Works,2603-2655 E Carson St,Pittsburgh,PA 15203,"$1,549 - $2,430","
+                                    1-2 Beds
+                                ",,(412) 274-1606,https://www.apartments.com/the-flats-at-southside-works-pittsburgh-pa/099wh00/
+The Square on Butler,3459 Butler St,Pittsburgh,PA 15201,"$1,900 - $2,550","
+                                    1-2 Beds
+                                ",,(412) 772-4227,https://www.apartments.com/the-square-on-butler-pittsburgh-pa/vwnsh0e/
+The Ivy Residences,701-705 Smithfield St,Pittsburgh,PA 15222,"$1,999 - $11,000","
+                                    1-4 Beds
+                                ",,(412) 231-9619,https://www.apartments.com/the-ivy-residences-pittsburgh-pa/zeq32ty/
+308 Miltenberger St,308 Miltenberger St,Pittsburgh,PA 15219,"$1,275 - $1,850","
+                                    Studio - 1 Bed
+                                ",,(412) 566-8943,https://www.apartments.com/308-miltenberger-st-pittsburgh-pa/4v31kxk/
+Union on 5th Avenue,1030 5th Ave,Pittsburgh,PA 15219,"$1,099 - $1,750","
+                                    2-3 Beds
+                                ",,(412) 231-9292,https://www.apartments.com/union-on-5th-avenue-pittsburgh-pa/k8y2zrb/
+The Venue Apartments!,625 Stanwix St,Pittsburgh,PA 15222,"$1,425 - $2,200","
+                                    1-2 Beds
+                                ",,(412) 231-9649,https://www.apartments.com/the-venue-apartments-pittsburgh-pa/6qp02ds/
+Catalyst Lofts,141 41st St,Pittsburgh,PA 15201,"$1,537 - $2,600","
+                                    1-3 Beds
+                                ",,(412) 816-9791,https://www.apartments.com/catalyst-lofts-pittsburgh-pa/0v7q7s3/
+Highland Park Club Apartments,1001 N Negley Ave,Pittsburgh,PA 15206,"$1,200 - $1,350","
+                                    1 Bed
+                                ",,(412) 517-7767,https://www.apartments.com/highland-park-club-apartments-pittsburgh-pa/qpr93dw/
+Residences at South High,930 E Carson St,Pittsburgh,PA 15203,"$1,546 - $2,700","
+                                    Studio - 2 Beds
+                                ",,(412) 566-8609,https://www.apartments.com/residences-at-south-high-pittsburgh-pa/y1d9n1t/
+Eighth and Penn,711-713 Penn Ave,Pittsburgh,PA 15222,"$1,200 - $5,200","
+                                    Studio - 3 Beds
+                                ",,(412) 851-6425,https://www.apartments.com/eighth-and-penn-pittsburgh-pa/bmw0rqb/
+The Royal Plaza Rockwel Realty Leasing,5506 5th Ave,Pittsburgh,PA 15232,"$1,650 - $2,100","
+                                    2-3 Beds
+                                ",,(412) 754-4579,https://www.apartments.com/the-royal-plaza-rockwel-realty-leasing-pittsburgh-pa/3s5lycg/
+Laurel Village Apartments,1000 Penn Center Blvd,Pittsburgh,PA 15235,"$1,090","
+                                    Studio - 2 Beds
+                                ",,(412) 385-6338,https://www.apartments.com/laurel-village-apartments-pittsburgh-pa/f2db0nv/
+Arlington Apartments,515 S Aiken Ave,Pittsburgh,PA 15232,"$965 - $1,815","
+                                    Studio - 2 Beds
+                                ",,(412) 566-8845,https://www.apartments.com/arlington-apartments-pittsburgh-pa/pr2nf1t/
+RedStone Place,265 46th St,Pittsburgh,PA 15201,"$1,695 - $2,095","
+                                    1-2 Beds
+                                ",,(412) 871-6040,https://www.apartments.com/redstone-place-pittsburgh-pa/rqd9zm0/
+The Evalee Apartments,7 Dorchester Dr,Pittsburgh,PA 15241,"$1,145 - $1,525","
+                                    1-2 Beds
+                                ",,(412) 226-4131,https://www.apartments.com/the-evalee-apartments-pittsburgh-pa/4vvnhrh/
+Royal Manor Apartments,8900 Royal Manor Dr,Pittsburgh,PA 15101,"$1,065 - $1,525","
+                                    1-3 Beds
+                                ",,(878) 217-6030,https://www.apartments.com/royal-manor-apartments-pittsburgh-pa/l8pvqdd/
+Churchview Gardens,3783 Churchview Avenue Ext,Pittsburgh,PA 15236,"$950 - $1,100","
+                                    1-2 Beds
+                                ",,(412) 385-6938,https://www.apartments.com/churchview-gardens-pittsburgh-pa/cwd27pd/
+Union Annex,1014 5th Ave,Pittsburgh,PA 15219,"$999 - $2,370","
+                                    Studio - 3 Beds
+                                ",,(412) 467-0153,https://www.apartments.com/union-annex-pittsburgh-pa/v5m23tg/
+Morrowfield,2715 Murray Ave,Pittsburgh,PA 15217,"$1,080 - $1,390","
+                                    Studio - 2 Beds
+                                ",,(412) 467-0249,https://www.apartments.com/morrowfield-pittsburgh-pa/34lt28g/
+Chateaugay Apartments,500 Hoodridge Dr,Pittsburgh,PA 15234,"$1,125 - $1,375","
+                                    1-2 Beds
+                                ",,(412) 896-7076,https://www.apartments.com/chateaugay-apartments-pittsburgh-pa/l0m1lwe/
+Perrytown Place,101 Highland Pines Dr,Pittsburgh,PA 15237,"$899 - $1,184","
+                                    Studio - 1 Bed
+                                ",,(412) 837-0717,https://www.apartments.com/perrytown-place-pittsburgh-pa/bqx2848/
+New South Side Apartments at 905 Bingham,905 Bingham St,Pittsburgh,PA 15203,"$1,295","
+                                    1 Bed
+                                ",,(412) 235-9779,https://www.apartments.com/new-south-side-apartments-at-905-bingham-pittsburgh-pa/7sz8hpx/
+Waldorf Park Apartments,103 McKnight Cir,Pittsburgh,PA 15237,"$964 - $1,494","
+                                    1-2 Beds
+                                ",,(412) 455-3802,https://www.apartments.com/waldorf-park-apartments-pittsburgh-pa/kyfcf58/
+One On Centre,4500 Centre Ave,Pittsburgh,PA 15213,"$1,290 - $2,335","
+                                    Studio - 3 Beds
+                                ",,(412) 455-8651,https://www.apartments.com/one-on-centre-pittsburgh-pa/p2phsns/
+The Rockwel - Rockwel Realty Leasing,430 Shady Ave,Pittsburgh,PA 15206,"$1,995","
+                                    2 Beds
+                                ",,(412) 850-4075,https://www.apartments.com/the-rockwel-rockwel-realty-leasing-pittsburgh-pa/8bj3yk3/
+Alcoma on the Green,225 Alcoma Blvd,Pittsburgh,PA 15235,"$880 - $1,450","
+                                    1-3 Beds
+                                ",,(724) 604-4142,https://www.apartments.com/alcoma-on-the-green-pittsburgh-pa/rz7e4n1/
+Hillside Apartments,1575-1597 Bevan Rd,Pittsburgh,PA 15227,"$1,015 - $1,075","
+                                    2 Beds
+                                ",,(412) 838-4674,https://www.apartments.com/hillside-apartments-pittsburgh-pa/wqzv6ck/
+Devon Towers,4920 CENTRE Ave,Pittsburgh,PA 15213,"$1,049 - $1,680","
+                                    Studio - 3 Beds
+                                ",,(412) 517-7426,https://www.apartments.com/devon-towers-pittsburgh-pa/r9y0cp1/
+Amberson Gardens,1-4 Bayard Rd,Pittsburgh,PA 15213,"$1,045 - $1,800","
+                                    Studio - 2 Beds
+                                ",,(412) 453-7833,https://www.apartments.com/amberson-gardens-pittsburgh-pa/w2vgfbj/
+The Wendover Community,5562 Hobart St,Pittsburgh,PA 15217,"$695 - $1,680","
+                                    Studio - 2 Beds
+                                ",,(412) 467-0395,https://www.apartments.com/the-wendover-community-pittsburgh-pa/l55ygwf/
+Ohara Place Apartments LP,3625-3645 Liberty Ave,Pittsburgh,PA 15201,"$1,050 - $1,495","
+                                    1-2 Beds
+                                ",,(412) 501-2146,https://www.apartments.com/ohara-place-apartments-lp-pittsburgh-pa/rkxzwj2/
+1869 West,1869 Chessland St,Pittsburgh,PA 15205,"$829 - $1,219","
+                                    1-3 Beds
+                                ",,(844) 960-3750,https://www.apartments.com/1869-west-pittsburgh-pa/7vzdc6y/
+Kenyon Court Apartments,300 Kenyon Ct,Pittsburgh,PA 15229,"$800 - $1,275","
+                                    2 Beds
+                                ",,(412) 324-7541,https://www.apartments.com/kenyon-court-apartments-pittsburgh-pa/2gdyrxb/
+Hillcrest Apartments,13 Hillcrest Dr,Pittsburgh,PA 15202,$825,"
+                                    1 Bed
+                                ",,(412) 324-7536,https://www.apartments.com/hillcrest-apartments-pittsburgh-pa/g9dvfkw/
+Douglas Plaza,2405-2407 Laketon Rd,Pittsburgh,PA 15221,$870 - $880,"
+                                    1 Bed
+                                ",,(878) 302-9541,https://www.apartments.com/douglas-plaza-pittsburgh-pa/9sdcyc6/
+Abbeyville Apartments,136 Abbeyville Rd,Pittsburgh,PA 15228,"$650 - $1,350","
+                                    Studio - 4 Beds
+                                ",,(412) 914-3824,https://www.apartments.com/abbeyville-apartments-pittsburgh-pa/qsppwhx/
+Frick Park Village,208 Rebecca Ave,Pittsburgh,PA 15221,"$900 - $1,030","
+                                    1-2 Beds
+                                ",,(412) 612-2468,https://www.apartments.com/frick-park-village-pittsburgh-pa/ldrlfyf/
+Cloverleaf Towers,60 Clover Dr,Pittsburgh,PA 15236,"$700 - $1,100","
+                                    Studio - 3 Beds
+                                ",,(412) 960-2572,https://www.apartments.com/cloverleaf-towers-pittsburgh-pa/t8ygpv9/
+Cliffside Manor Apartments,200 Cliffside Manor Dr,Pittsburgh,PA 15202,"$900 - $1,100","
+                                    1-2 Beds
+                                ",,(724) 582-7818,https://www.apartments.com/cliffside-manor-apartments-pittsburgh-pa/wgqlw2l/
+The Forest Apartments,801 Smokey Wood Dr,Pittsburgh,PA 15218,$815 - $920,"
+                                    1-2 Beds
+                                ",,(412) 850-4209,https://www.apartments.com/the-forest-apartments-pittsburgh-pa/vc35qxg/
+11670 Frankstown Rd,11670 Frankstown Rd,Pittsburgh,PA 15235,$645 - $695,"
+                                    Studio - 1 Bed
+                                ",,(412) 744-8051,https://www.apartments.com/11670-frankstown-rd-pittsburgh-pa/nfn6bxm/
+Jameson Townhomes,3367 Jameson Dr,Brentwood,PA 15227,"$1,325 - $1,425","
+                                    3 Beds
+                                ",,(412) 668-5220,https://www.apartments.com/jameson-townhomes-brentwood-pa/3s2x5pf/
+905 Liberty Ave Unit 3B,905 Liberty Ave Unit 3B,Pittsburgh,PA 15222,"$1,500","
+                                    1 Bed, 1 Bath, 1,080 sq ft
+                                ",,(412) 467-0566,https://www.apartments.com/905-liberty-ave-pittsburgh-pa/ndetgbn/
+448 Country View Ct,448 Country View Ct,Pittsburgh,PA 15205,"$1,300","
+                                    2 Beds, 1 Bath, 992 sq ft
+                                ",,,https://www.apartments.com/448-country-view-ct-pittsburgh-pa/8v4l0h2/
+3306 Iowa St,3306 Iowa St Unit Floor 1 (  1),Pittsburgh,PA 15219,"$1,995","
+                                    4 Beds, 1 Bath, 1,595 sq ft
+                                ",,(878) 309-4732,https://www.apartments.com/3306-iowa-st-pittsburgh-pa/dhjh71j/
+2328 Murray Ave,2328 Murray Ave,Pittsburgh,PA 15217,"$1,695","
+                                    4 Beds, 1.5 Baths, 2,500 sq ft
+                                ",,(878) 309-4710,https://www.apartments.com/2328-murray-ave-pittsburgh-pa/068w1m3/
+919 S Aiken Ave,919 S Aiken Ave,Pittsburgh,PA 15232,"$3,000","
+                                    1 Bed, 1 Bath, 1,400 sq ft
+                                ",,(412) 924-5852,https://www.apartments.com/919-s-aiken-ave-pittsburgh-pa/pp2jqmr/
+716 Walnut St,716 Walnut St,Pittsburgh,PA 15221,"$1,395","
+                                    2 Beds, 1 Bath, 1,300 sq ft
+                                ",,(412) 871-6871,https://www.apartments.com/716-walnut-st-pittsburgh-pa/dbfz3bk/
+2018 Forbes Ave,2018 Forbes Ave,Pittsburgh,PA 15219,"$1,650 - $2,750","
+                                    1-2 Beds, 1-2 Baths
+                                ",,,https://www.apartments.com/2018-forbes-ave-pittsburgh-pa/c9y3kfd/
+3890 Brighton Rd,3890 Brighton Rd Unit 2,Pittsburgh,PA 15212,"$1,300","
+                                    2 Beds, 1 Bath, 1,000 sq ft
+                                ",,,https://www.apartments.com/3890-brighton-rd-pittsburgh-pa/rt1lrx0/
+337 Atwood St,337 Atwood St,Pittsburgh,PA 15213,"$5,600","
+                                    6 Beds, 2 Baths, 2,500 sq ft
+                                ",,(412) 547-9290,https://www.apartments.com/337-atwood-st-pittsburgh-pa/xvsgg4m/
+4 Welsford St,4 Welsford St,Pittsburgh,PA 15213,"$4,900","
+                                    6 Beds, 3 Baths, 3,000 sq ft
+                                ",,(412) 816-8601,https://www.apartments.com/4-welsford-st-pittsburgh-pa/ebdfs1n/
+348 Oakland Ave,348 Oakland Ave,Pittsburgh,PA 15213,"$2,400","
+                                    3 Beds, 2 Baths, 1,500 sq ft
+                                ",,(412) 547-9363,https://www.apartments.com/348-oakland-ave-pittsburgh-pa/b7lqb68/
+908 Bryn Mawr Rd,908 Bryn Mawr Rd,Pittsburgh,PA 15219,"$1,295 - $1,495","
+                                    2-3 Beds, 1 Bath
+                                ",,(878) 309-4982,https://www.apartments.com/908-bryn-mawr-rd-pittsburgh-pa/4yhvlvk/
+1481 Alabama Ave Unit 2,1481 Alabama Ave Unit 2,Pittsburgh,PA 15216,"$1,050","
+                                    3 Beds, 1 Bath, 900 sq ft
+                                ",,,https://www.apartments.com/1481-alabama-ave-pittsburgh-pa/gq7g6px/
+366 Meyran Ave,366 Meyran Ave,Pittsburgh,PA 15213,"$4,500","
+                                    6 Beds, 2 Baths, 1,750 sq ft
+                                ",,(412) 668-1809,https://www.apartments.com/366-meyran-ave-pittsburgh-pa/hxl1yd3/
+2108 S Braddock Ave,2108 S Braddock Ave,Swissvale,PA 15218,"$1,200","
+                                    2 Beds, 1 Bath, 1,500 sq ft
+                                ",,(412) 990-1827,https://www.apartments.com/2108-s-braddock-ave-swissvale-pa/vx0en2f/

@@ -1,3 +1,273 @@
-Price,Amenity,Landlord
-90,厨房,张三
-110,空调,李四
+Apartment Name,Average Rating,Latitude,Longtitude,Price,Discount,Save money,Character,Room Type,Pets_allowed,Free canceled,Amenities,URL
+Room in Pittsburgh,4.74 (225),40.42818,-79.98196,$46,No,0,#22 Private Room: Queen Bed + TV in Carson Street,private_room,No,No,,https://airbnb.com/rooms/45321322
+Apartment in Pittsburgh,New,40.45931,-80.00108,$60,No,0,Chic 1st Floor Studio Near Hospital,entire_home,No,Yes,,https://airbnb.com/rooms/1227810313647942083
+Room in Pittsburgh,New,40.45912,-79.941,$56,No,0,Bloomfield/Shadyside @C Modern & Cozy Private Bdrm,private_room,No,No,,https://airbnb.com/rooms/1243661528960603855
+Room in Pittsburgh,4.79 (19),40.42347,-79.8893,$34,No,0,Spacious & beautiful 1 bedroom in Pittsburgh (#5),private_room,No,No,,https://airbnb.com/rooms/552036598391425450
+Apartment in Pittsburgh,4.83 (80),40.42561,-80.00629,$74,Yes,35,"Refined Studio, New Construction, 1 Mile From Town",entire_home,No,No,,https://airbnb.com/rooms/45482686
+Apartment in Pittsburgh,4.79 (24),40.42805,-79.97657,$61,No,0,Cozy 1 Bedroom in the South Side,entire_home,No,No,,https://airbnb.com/rooms/1175212491064525105
+Apartment in Pittsburgh,New,40.38733,-79.97576,$80,No,0,Furnished 1 bedroom basement Apartment.,entire_home,No,Yes,,https://airbnb.com/rooms/1240695858847038844
+Apartment in Pittsburgh,4.89 (187),40.45567,-79.93072,$96,Yes,10,Super safe & Walkable area~Free off street parking,entire_home,No,Yes,,https://airbnb.com/rooms/54195012
+Home in Pittsburgh,New,40.4794769,-79.9766851,$128,No,0,Millvale: Near Hospitals & Trail,entire_home,No,No,,https://airbnb.com/rooms/1216176388374104893
+Apartment in Pittsburgh,4.91 (90),40.42894,-79.97673,$84,No,0,Convenient 1 BR With City View,entire_home,No,No,,https://airbnb.com/rooms/1058015266816537701
+Home in Pittsburgh,4.98 (182),40.45186,-80.01847,$115,Yes,48,Stroll to Heinz Field From Former 1895 Electric Shop,entire_home,No,Yes,,https://airbnb.com/rooms/26769432
+Apartment in Pittsburgh,4.97 (719),40.44283676147461,-79.93583679199219,$113,No,0,"Spacious, warm, private apartment near CMU /Pitt",entire_home,No,Yes,,https://airbnb.com/rooms/31489414
+Apartment in Millvale,4.97 (116),40.48497941491241,-79.97260902114776,$69,No,0,*Comfy & Clean* 1BR Millvale apt,entire_home,No,Yes,,https://airbnb.com/rooms/758559013448433882
+Home in Pittsburgh,4.89 (54),40.41984770401134,-79.97227535642475,$51,No,0,w 1BR 2BA sleeps 2 refreshed Southside slopes CB1,entire_home,No,Yes,,https://airbnb.com/rooms/690859827209832350
+Apartment in Pittsburgh,4.9 (398),40.46264,-79.93508,$58,Yes,17,PRIVATE FULL STUDIO IN PITTSBURGH (C2),entire_home,No,Yes,,https://airbnb.com/rooms/21815781
+Home in Pittsburgh,4.97 (155),40.4684385,-79.9547943,$125,Yes,13,King Bed / Free Parking / Arcade / BBQ / Patio,entire_home,No,No,,https://airbnb.com/rooms/838260744522639655
+Home in Pittsburgh,4.97 (39),40.4281,-79.97774,$74,Yes,13,2 King Beds / Free Parking / Arcade / Fire Pit,entire_home,No,No,,https://airbnb.com/rooms/1120568933416466007
+Home in Pittsburgh,New,40.45648,-79.99723,$102,No,0,Private Parking • Brand new Cozy Haven,entire_home,No,No,,https://airbnb.com/rooms/1210530273672656405
+Home in Troy Hill,5.0 (27),40.45843,-79.99408,$85,Yes,30,Northside Urban Escape,entire_home,No,Yes,,https://airbnb.com/rooms/1073207662334998838
+Home in Bloomfield,4.95 (159),40.4562314,-79.9480883,$178,Yes,31,Spacious Luxury 6 BR Art Deco Home In The City,entire_home,No,No,,https://airbnb.com/rooms/754568595630789157
+Apartment in Downtown Pittsburgh,5.0 (9),40.44309,-79.99864,$137,Yes,21,Sophisticated 2BR loft downtown,entire_home,No,No,,https://airbnb.com/rooms/1209020348019967994
+Home in Mount Washington,4.91 (67),40.4359222,-80.0156104,$123,No,0,Scenic Haven: Downtown 3BR/2BA w/Parking + Patio,entire_home,No,Yes,,https://airbnb.com/rooms/978216529853207039
+Apartment in Pittsburgh,4.9 (21),40.4848599,-79.9732329,$75,Yes,11,Northstar Suite - 10 minutes from the Arena,entire_home,No,No,,https://airbnb.com/rooms/1052224602188300893
+Aparthotel in Brighton Heights,4.88 (156),40.4811,-80.03129,$60,No,0,"420 friendly (Ozone treated) w HBO, Hulu, Netflix",private_room,No,No,,https://airbnb.com/rooms/48425655
+Apartment in Pittsburgh,New,40.45435,-80.00236,$105,No,0,*8 min WALK to Stadium Complex!,entire_home,No,No,,https://airbnb.com/rooms/1239725646732404955
+Home in Pittsburgh,5.0 (15),40.45993,-80.05033,$95,Yes,55,"Sunny, spacious 5 bedroom 3 bath",entire_home,No,Yes,,https://airbnb.com/rooms/1098616193869426258
+Condo in Downtown Pittsburgh,4.68 (25),40.44367,-79.99849,$70,Yes,38,Elegant 1 Bed Apt near PNC w washer & dryer,entire_home,No,No,,https://airbnb.com/rooms/1003527769546836624
+Home in Pittsburgh,New,40.4794827,-79.95290159999999,$71,Yes,17,3BDR Townhouse in Pittsburg 419 1/2,entire_home,No,Yes,,https://airbnb.com/rooms/1253090818210539145
+Apartment in Downtown Pittsburgh,4.54 (337),40.44257,-80.00697,$97,Yes,12,River View Two Double Beds at  Pittsburgh Downtown,entire_home,No,Yes,,https://airbnb.com/rooms/825672836572972606
+Apartment in Mount Washington,4.79 (47),40.43451,-80.01008,$88,Yes,125,Charming Apt - Panoramic Views,entire_home,No,No,,https://airbnb.com/rooms/1062387408333114005
+Home in Pittsburgh,4.86 (99),40.44489,-79.86118,$95,Yes,37,Beautifully Remodeled 4-Bedroom Colonial Thriller,entire_home,No,Yes,,https://airbnb.com/rooms/716158067480625772
+Apartment in Pittsburgh,4.41 (44),40.47901,-79.94288,$91,Yes,38,Charming Suite in Upper Lawrenceville - Downtown!,entire_home,No,No,,https://airbnb.com/rooms/864349412539928877
+Home in Pittsburgh,4.78 (153),40.36877,-80.02417,$65,No,0,✨Cozy & Stylish 2BR House 🏡 Sleeps 6✨Free Parking,entire_home,No,Yes,,https://airbnb.com/rooms/53518776
+Home in Mount Washington,New,40.423940263233405,-79.99862580190992,$122,No,0,Fully Renovated Classic Home!,entire_home,No,Yes,,https://airbnb.com/rooms/1250263360707484290
+Home in Pittsburgh,4.97 (362),40.38856,-80.04557,$129,No,0,Head to Pittsburgh From Mt. Lebanon Cottage,entire_home,No,Yes,,https://airbnb.com/rooms/29051237
+Home in Pittsburgh,4.67 (51),40.38644,-80.04537,$85,No,0,Luxe Mt. Lebanon Home | Central | Free Parking,entire_home,No,No,,https://airbnb.com/rooms/999465084145903782
+Home in Pittsburgh,New,40.386821369120916,-80.03693047387367,$128,No,0,Energetic Oasis,entire_home,No,Yes,,https://airbnb.com/rooms/1253053088383989580
+Apartment in Pittsburgh,5.0 (19),40.4532353,-79.9352881,$91,Yes,10,Luxurious Double KING~Steps to Walnut St~PARKING,entire_home,No,Yes,,https://airbnb.com/rooms/1200852786785733774
+Home in Coraopolis,New,40.51942425858541,-80.16581800505807,$109,No,0,Pittsburgh Getaway,entire_home,No,No,,https://airbnb.com/rooms/1200986457180350517
+Apartment in Pittsburgh,4.92 (103),40.48195,-79.97583,$90,Yes,13,Spacious 1 bedroom / 2 full bath in hip Millvale!,entire_home,No,Yes,,https://airbnb.com/rooms/575349045870345703
+Apartment in Pittsburgh,4.95 (263),40.46165,-79.94009,$85,Yes,20,Cozy Entire APT B Friendship Park & Free Parking,entire_home,No,Yes,,https://airbnb.com/rooms/44277604
+Apartment in Pittsburgh,4.99 (188),40.49684,-80.05077,$82,Yes,15,"The Bellevue Suite *Free parking, 10mins to DWNTWN",entire_home,No,Yes,,https://airbnb.com/rooms/28277406
+Home in Pittsburgh,New,40.47865256754433,-79.95373159712985,$72,Yes,19,Townhouse| King | Pittsburg 419,entire_home,No,Yes,,https://airbnb.com/rooms/1253102676835170088
+Guesthouse in Bellevue,4.92 (126),40.50035,-80.05639,$73,No,0,Newly Renovated; 10 minutes from Downtown,entire_home,No,No,,https://airbnb.com/rooms/606385642655352193
+Home in Pittsburgh,4.93 (29),40.46404,-79.96204,$68,No,0,Spacious Home near Arsenal Park l High Speed WiFi,entire_home,No,No,,https://airbnb.com/rooms/1045016637956436552
+Apartment in Pittsburgh,4.93 (55),40.45471269999999,-79.93117289999999,$93,No,0,Shadyside King Suite w/ Parking!,entire_home,No,Yes,,https://airbnb.com/rooms/1117343197365802960
+Home in Pittsburgh,4.93 (295),40.47469,-80.0274,$69,No,0,"Explore Pittsburgh from a Modern, Hip Bungalow",entire_home,No,No,,https://airbnb.com/rooms/42485891
+Apartment in Pittsburgh,New,40.45466,-79.91105,$129,Yes,14,Luxurious 3 King Bed Apt~3 Parking Spots~Bakery Sq,entire_home,No,Yes,,https://airbnb.com/rooms/1231965422527797051
+Apartment in Pittsburgh,4.84 (522),40.45433,-80.02869,$76,Yes,30,Renovated top floor unit! Close to downtown!,entire_home,No,No,,https://airbnb.com/rooms/23732307
+Apartment in Pittsburgh,4.94 (376),40.46224,-79.94184,$81,Yes,18,Cozy Entire Apt 2 *Friendship Park* free parking,entire_home,No,Yes,,https://airbnb.com/rooms/35237302
+Home in Pittsburgh,4.93 (89),40.46192,-80.00252,$77,No,0,Eclectic Historic Sunny Vista Home with City Views,entire_home,No,No,,https://airbnb.com/rooms/48092795
+Apartment in Pittsburgh,4.9 (52),40.46129,-79.93126,$93,No,0,Luxurious 2Bed by Whole Foods,entire_home,No,Yes,,https://airbnb.com/rooms/1117458435517043938
+Home in Pittsburgh,4.92 (25),40.42742,-80.14117,$100,No,0,Legacy studio,entire_home,No,Yes,,https://airbnb.com/rooms/1163929489419732503
+Apartment in Pittsburgh,4.9 (185),40.42968,-79.97655,$82,No,0,Convenient 1BR in the South Side,entire_home,No,No,,https://airbnb.com/rooms/819838094763961376
+Apartment in South Side Flats,4.9 (89),40.42407,-79.96844,$64,No,0,Walkable Southside Flats Fun,entire_home,No,No,,https://airbnb.com/rooms/657169757170127665
+Apartment in Pittsburgh,4.87 (31),40.45646,-80.02811,$69,Yes,9,"Beautiful historic, renovated unit!",entire_home,No,Yes,,https://airbnb.com/rooms/8506667
+Room in North Oakland,4.95 (74),40.44901,-79.95677,$93,No,0,Oakland/University @C Modern & Stylish Private Bd,private_room,No,No,,https://airbnb.com/rooms/965921728316833907
+Home in Pittsburgh,5.0 (6),40.45434744971602,-80.00099401921034,$141,No,0,Private Parking & Patio • Stylish Urban Getaway,entire_home,No,No,,https://airbnb.com/rooms/1233654430718237647
+Guest suite in Bloomfield,4.89 (356),40.4647,-79.93363,$54,Yes,23,PRIVATE MINI STUDIO (D1),entire_home,No,Yes,,https://airbnb.com/rooms/20030383
+Room in Pittsburgh,4.82 (216),40.57082,-80.05408,$37,No,0,Cozy Private Room,private_room,No,No,,https://airbnb.com/rooms/33334222
+Apartment in Point Breeze,4.96 (444),40.44861,-79.9048,$93,No,0,Charming cozy apartment with deck.,entire_home,No,Yes,,https://airbnb.com/rooms/6259963
+Home in Troy Hill,4.95 (44),40.47138,-79.97844,$103,No,0,The View*Sleeps 6* City Home,entire_home,No,No,,https://airbnb.com/rooms/957141526650769847
+Apartment in South Side Flats,4.82 (651),40.42761,-79.98638,$59,Yes,10,Spacious 2 Bdrm in South Side Flats,entire_home,No,Yes,,https://airbnb.com/rooms/11827641
+Guest suite in Brighton Heights,4.95 (260),40.4885,-80.03723,$85,No,0,"Warm & Cozy, Newly Remodeled Private Space.",entire_home,No,Yes,,https://airbnb.com/rooms/52237556
+Home in Mount Washington,4.89 (309),40.43382,-80.01327,$73,No,0,e 2br A short walk to Grandview sleeps up to 4 fun,entire_home,No,No,,https://airbnb.com/rooms/21390148
+Apartment in Bloomfield,4.97 (115),40.46393,-79.94389,$94,No,0,Bloomfield/Shadyside KING Suite! OffStreet Parking,entire_home,No,Yes,,https://airbnb.com/rooms/983357102746193249
+Apartment in Pittsburgh,4.81 (310),40.45441,-80.00073,$68,No,0,"1 Bed, idyllic, near stadiums, town, AGH. Pet OK",entire_home,No,Yes,,https://airbnb.com/rooms/50585924
+Home in Pittsburgh,5.0 (8),40.47239,-79.96201,$139,Yes,19,Lawrenceville modern 1 story,entire_home,No,No,,https://airbnb.com/rooms/19138308
+Apartment in Northshore,5.0 (9),40.4471,-80.00841,$135,No,0,Steel City Adventure | Stadium. Fitness Center,entire_home,No,Yes,,https://airbnb.com/rooms/1135621267556897898
+Townhouse in Pittsburgh,5.0 (9),40.35982,-80.06041,$129,No,0,New Retreat in Convenient Suburb to airport/city,entire_home,No,Yes,,https://airbnb.com/rooms/1162514461841565157
+Apartment in Pittsburgh,4.91 (93),40.41926,-79.99251,$42,No,0,Workers' row duplex,entire_home,No,Yes,,https://airbnb.com/rooms/31211713
+Apartment in Pittsburgh,4.9 (534),40.49742,-80.05067,$57,Yes,7,"The Fremont Suite *Free parking, 10 mins to DWNTWN",entire_home,No,Yes,,https://airbnb.com/rooms/17775747
+Apartment in Pittsburgh,4.9 (534),40.49742,-80.05067,$57,Yes,7,"The Fremont Suite *Free parking, 10 mins to DWNTWN",entire_home,No,Yes,,https://airbnb.com/rooms/17775747
+Apartment in Pittsburgh,4.91 (44),40.33829,-79.96333,$100,Yes,62,Large 2 Bedroom Great Location Close to Everything,entire_home,No,No,,https://airbnb.com/rooms/579883787822919677
+Guest suite in Pittsburgh,4.98 (187),40.46446,-79.94133,$84,No,0,"Sunny Friendship ""Treehouse"" 2 story / 1BD gem",entire_home,No,Yes,,https://airbnb.com/rooms/1491905
+Apartment in Carnegie,4.94 (47),40.40765,-80.08178,$79,No,0,Perfectly Placed!,entire_home,No,Yes,,https://airbnb.com/rooms/52620225
+Room in Pittsburgh,4.9 (187),40.48147,-80.03098,$61,No,0,420 friendly Master Suite w bath tv & jet tub,private_room,No,No,,https://airbnb.com/rooms/47561620
+Home in Pittsburgh,5.0 (4),40.45501,-79.99472,$105,No,0,Private Parking • Charming Getaway,entire_home,No,No,,https://airbnb.com/rooms/1238778211295802250
+Home in Pittsburgh,4.92 (366),40.47329,-80.02758,$77,No,0,"Cozy escape close to downtown, stadiums & parks",entire_home,No,No,,https://airbnb.com/rooms/41763524
+Apartment in Bellevue,4.94 (53),40.49014,-80.054443,$97,No,0,New 1 bedroom garage apartment,entire_home,No,Yes,,https://airbnb.com/rooms/868660339302084619
+Apartment in Pittsburgh,4.8 (286),40.46643,-79.95212,$90,Yes,15,Apt 7 Bloomfield/Lawrenceville private mini studio,entire_home,No,Yes,,https://airbnb.com/rooms/31218687
+Room in Pittsburgh,4.92 (89),40.48316,-80.03681,$50,Yes,6,Kristin & Jared's Comfy Cozy Home,private_room,No,No,,https://airbnb.com/rooms/53905123
+Home in Carnegie,New,40.40081,-80.08442,$96,No,0,The Carnegie. Off-Street Parking,entire_home,No,Yes,,https://airbnb.com/rooms/1239013421019557879
+Apartment in Pittsburgh,4.92 (259),40.46047,-79.93956,$77,No,0,Cozy Entire AptA Friendship Park & free parking,entire_home,No,Yes,,https://airbnb.com/rooms/47825424
+Home in Pittsburgh ,4.93 (254),40.46428,-79.99433,$75,Yes,23,"Cozy studio apartment, private entrance + porch",entire_home,No,Yes,,https://airbnb.com/rooms/1624456
+Home in Pittsburgh,5.0 (23),40.45704,-79.99366,$105,Yes,43,Chic Northside Retreat,entire_home,No,Yes,,https://airbnb.com/rooms/1073196044910543202
+Home in Pittsburgh,4.83 (381),40.45681,-80.00468,$67,Yes,33,Adorable North Side Carriage House,entire_home,No,Yes,,https://airbnb.com/rooms/30262616
+Room in Pittsburgh,4.95 (303),40.37002,-79.91957,$55,Yes,7,Colorful eco nugget,private_room,No,No,,https://airbnb.com/rooms/38132798
+Guesthouse in Pittsburgh,4.96 (215),40.37189,-80.03886,$97,No,0,Cozy Mt Leb Carriage Hse | Kitchen | T to Stadium,entire_home,No,No,,https://airbnb.com/rooms/6923935
+Room in Pittsburgh,5.0 (15),40.44052,-79.85576,$47,No,0,McCutchen Suite at the Castle,private_room,No,No,,https://airbnb.com/rooms/1211833305565904161
+Room in Pittsburgh,4.85 (616),40.4312,-79.92353,$49,Yes,5,Quiet private room upstairs in Squirrel Hill,private_room,No,No,,https://airbnb.com/rooms/21212513
+Home in Pittsburgh,5.0 (10),40.4323549,-80.0085781,$333,Yes,127,Luxury Home With Incredible View,entire_home,No,Yes,,https://airbnb.com/rooms/1199368500425178264
+Condo in Pittsburgh,New,40.45424,-80.02502,$99,Yes,60,Short walk to Acrisure stadium,entire_home,No,Yes,,https://airbnb.com/rooms/1206820687285829454
+Home in Pittsburgh,4.74 (202),40.43216,-80.01996,$89,Yes,10,Olympia Place MT Washington.,entire_home,No,No,,https://airbnb.com/rooms/39338581
+Apartment in Pittsburgh,4.93 (127),40.40901,-80.02548,$83,No,0,Free parking ⁕ Affordable Stay ⁕ 5 min to Downtown,entire_home,No,No,,https://airbnb.com/rooms/866148204463281780
+Apartment in Pittsburgh,4.92 (53),40.50289,-80.07093,$105,Yes,13,Vintage Haven,entire_home,No,Yes,,https://airbnb.com/rooms/42451544
+Apartment in Pittsburgh,4.93 (44),40.42782357565913,-79.98727384954691,$72,Yes,19,Sarah St Rowhome #3 1bd|1ba,entire_home,No,No,,https://airbnb.com/rooms/959274845509747036
+Room in Pittsburgh,4.88 (103),40.40943,-80.02091,$35,No,0,Little Paris-Twin Bed Room,private_room,No,No,,https://airbnb.com/rooms/29708874
+Apartment in Pittsburgh,4.54 (337),40.44257,-80.00697,$108,Yes,13,River View Two Double Beds at  Pittsburgh Downtown,entire_home,No,Yes,,https://airbnb.com/rooms/825672836572972606
+Home in Pittsburgh,4.9 (21),40.45493,-79.80103,$160,No,0,Cozy three bedroom home close to shopping and more,entire_home,No,No,,https://airbnb.com/rooms/800910668480526129
+Apartment in Pittsburgh,4.95 (258),40.49683,-80.05075,$92,Yes,15,"The Pittsburgh Suite *Free Parking, 10mins-DWNTWN",entire_home,No,Yes,,https://airbnb.com/rooms/22462997
+Townhouse in Carnegie,5.0 (91),40.39831,-80.14056,$89,No,0,"Near Everything! Safe, Clean, and Convenient",entire_home,No,No,,https://airbnb.com/rooms/660890194066526193
+Apartment in Pittsburgh,4.8 (123),40.4545,-80.02175,$71,No,0,Comfortable and Walkable | Off-Street Parking,entire_home,No,No,,https://airbnb.com/rooms/50281202
+Apartment in Pittsburgh,4.94 (283),40.42339,-79.98494,$95,Yes,10,✨Million Dollar View ✨Spacious Studio✨‼️🌆,entire_home,No,No,,https://airbnb.com/rooms/49920027
+Condo in Pittsburgh,5.0 (43),40.39433,-80.04706,$112,No,0,Charming South Hills Apartment located near parks,entire_home,No,No,,https://airbnb.com/rooms/643248576312975545
+Home in Pittsburgh,4.9 (61),40.36389,-80.03611,$144,Yes,22,Cozy Bright Mt. Leb Cottage | 2 m to T to Stadiums,entire_home,No,No,,https://airbnb.com/rooms/642896706220122829
+Apartment in Pittsburgh,4.95 (20),40.4275361,-79.9695622,$60,Yes,18,Spacious Two Bedrooms Apartment,entire_home,No,No,,https://airbnb.com/rooms/976397250545696005
+Apartment in Pittsburgh,4.94 (295),40.46188,-79.94164,$74,No,0,Cozy Entire Apt 4-Friendship Park *free parking*,entire_home,No,Yes,,https://airbnb.com/rooms/38510070
+Home in Pittsburgh,5.0 (4),40.42672,-79.97392,$76,No,0,Iron City of South Side Flats,entire_home,No,Yes,,https://airbnb.com/rooms/1199579808176382532
+Apartment in Pittsburgh,4.69 (223),40.46442,-79.95128,$90,Yes,15,Apt 10 Bloomfield/ Lawrenceville private mini 1 br,entire_home,No,Yes,,https://airbnb.com/rooms/31220366
+Apartment in Pittsburgh,4.95 (43),40.46223,-79.93051,$88,No,0,New King Suite by Whole Foods!,entire_home,No,Yes,,https://airbnb.com/rooms/1126254369528952768
+Home in Pittsburgh,5.0 (7),40.47484,-79.97098,$153,Yes,17,"Stylish & Bright 3Bd Home, Amazing Deck, Game Room",entire_home,No,No,,https://airbnb.com/rooms/1229759619508387648
+Guest suite in West Mifflin,4.98 (139),40.37366,-79.93109,$105,No,0,"Hilltop Suite, Quiet Street",entire_home,No,Yes,,https://airbnb.com/rooms/719439013537259670
+Room in Pittsburgh,5.0 (6),40.46975,-79.91771,$41,No,0,Cozy and Chic Retreat! 2A,private_room,No,No,,https://airbnb.com/rooms/1092076777297077132
+Home in Clairton,5.0 (58),40.29266,-79.9649,$99,No,0,Updated 2 story with extra fun.,entire_home,No,No,,https://airbnb.com/rooms/743723925919310769
+Guest suite in Pittsburgh,4.95 (19),40.37809,-80.04989,$80,Yes,25,Magnolia Place,entire_home,No,Yes,,https://airbnb.com/rooms/1126333989849480574
+Apartment in Millvale,4.98 (165),40.48446,-79.97259,$99,No,0,*Comfy Cozy Clean* 1stFloor 2BR apartment,entire_home,No,Yes,,https://airbnb.com/rooms/53214997
+Apartment in Pittsburgh,4.93 (343),40.46511,-79.95388,$84,No,0,"Delightful Artsy & Private Apartment, East End PGH",entire_home,No,No,,https://airbnb.com/rooms/16147036
+Apartment in Pittsburgh,5.0 (29),40.46099,-79.93031,$131,Yes,33,Upscale King Bed Suite ~ Free parking & ADA!,entire_home,No,Yes,,https://airbnb.com/rooms/1116613006609282710
+Home in Pittsburgh,4.98 (59),40.45802,-79.99612,$158,No,0,"HotTub/Yard
+<1 miPNCPark
+Private Parking",entire_home,No,No,,https://airbnb.com/rooms/617954098247277448
+Home in Bridgeville,4.94 (126),40.36002,-80.11197,$120,No,0,Spacious 2 Bedroom in a Convenient Location,entire_home,No,No,,https://airbnb.com/rooms/41708723
+Home in Pittsburgh,New,40.43079,-79.91955,$72,No,0,New & Cozy Apt in Squirrel Hill,entire_home,No,Yes,,https://airbnb.com/rooms/1243637938603120171
+Apartment in Pittsburgh,5.0 (19),40.43295,-79.91411,$100,No,0,Modern one bedroom basement apartment,entire_home,No,Yes,,https://airbnb.com/rooms/628907700312588884
+Room in Sharpsburg,4.86 (93),40.49434,-79.92238,$25,No,0,"Phenom cozy stay ctrl to DT, UPMC, Oakland, Bkr Sq",private_room,No,No,,https://airbnb.com/rooms/34286584
+Apartment in Pittsburgh,4.98 (49),40.42873,-79.89557,$108,No,0,"""April's Retreat"" Regent Square King Bed Frick Prk",entire_home,No,No,,https://airbnb.com/rooms/981188882709800723
+Apartment in Pittsburgh,New,40.4631339,-79.94055209999999,$72,No,0,Charming 2 Floor. Blue Relax 2BR,entire_home,No,Yes,,https://airbnb.com/rooms/1244726314788577638
+Home in Pittsburgh,4.86 (7),40.42837,-79.97359,$68,Yes,18,Steel City of South Side Flats,entire_home,No,Yes,,https://airbnb.com/rooms/1205274916557555912
+Room in Pittsburgh,4.84 (186),40.5699,-80.05335,$39,No,0,Quiet Private Room,private_room,No,No,,https://airbnb.com/rooms/36281041
+Home in Pittsburgh,4.86 (87),40.39675,-80.01963,$99,Yes,36,"Comfy, 3bedroom, Single car garage with a driveway",entire_home,No,Yes,,https://airbnb.com/rooms/716467948560149997
+Apartment in Pittsburgh,4.92 (166),40.46325,-79.94813,$80,Yes,9,Lovely* Center*Bloomfield*Apt *,entire_home,No,Yes,,https://airbnb.com/rooms/51176291
+Home in Pittsburgh,5.0 (8),40.56714,-80.00874,$104,No,0,The Nest in the North Hills.,entire_home,No,No,,https://airbnb.com/rooms/839606504483609764
+Apartment in Glenshaw,4.95 (224),40.54704,-79.91804,$80,No,0,The Camera Stop,entire_home,No,Yes,,https://airbnb.com/rooms/43389673
+Apartment in Pittsburgh,4.54 (57),40.48003,-79.94957,$51,No,0,Butler's heart!,entire_home,No,No,,https://airbnb.com/rooms/797239736755723493
+Apartment in Pittsburgh,4.86 (293),40.45483,-79.99466,$76,Yes,11,"Newly Renovated, Beautifully Decorated in ❤️ of PGH",entire_home,No,No,,https://airbnb.com/rooms/49398736
+Guest suite in Pittsburgh,4.97 (34),40.42805,-79.94849,$58,No,0,The Lookout In The Run,entire_home,No,No,,https://airbnb.com/rooms/830696540192300748
+Townhouse in Pittsburgh,4.83 (211),40.36795,-80.02981,$139,Yes,34,Cozy 3BR Home with Fire Pit & Free Parking!,entire_home,No,Yes,,https://airbnb.com/rooms/53715923
+Apartment in Pittsburgh,4.81 (216),40.4669,-80.03009,$61,No,0,Cozy 1 Bedroom Apt 5 min from Stadiums N Downtown,entire_home,No,Yes,,https://airbnb.com/rooms/27756649
+Room in Pittsburgh,4.85 (47),40.470774776452004,-79.91639546242675,$34,No,0,Cozy and Chic Retreat! 2C,private_room,No,No,,https://airbnb.com/rooms/1046479149817704718
+Apartment in Pittsburgh,4.99 (163),40.49262,-80.04278,$148,No,0,504 Bascom Ave Serene Luxury,entire_home,No,Yes,,https://airbnb.com/rooms/36630922
+Apartment in Pittsburgh,4.81 (197),40.46637,-79.9522,$90,Yes,15,Apt 6 Bloomfield/Lawrenceville private mini studio,entire_home,No,Yes,,https://airbnb.com/rooms/31218236
+Apartment in Pittsburgh,4.98 (61),40.46004,-80.01461,$114,No,0,Amazing views! Free Parking!,entire_home,No,No,,https://airbnb.com/rooms/1008088988746141082
+Condo in Pittsburgh,4.56 (39),40.45403,-79.93324,$62,Yes,10,Walking Distance to Walnut St/UPMC/CMU !,entire_home,No,Yes,,https://airbnb.com/rooms/51619199
+Apartment in Pittsburgh,4.85 (179),40.45079,-80.0154,$89,Yes,21,Business Suite | Walkable Entertainment,entire_home,No,No,,https://airbnb.com/rooms/45969920
+Cottage in Boston,5.0 (3),40.31172,-79.83093,$160,No,0,"""Little Boston"" Cozy Cottage",entire_home,No,Yes,,https://airbnb.com/rooms/1212396488441204877
+Cabin in Pittsburgh,4.93 (138),40.55345,-79.87711,$135,No,0,Cabin in Pittsburgh.  20 minutes to Pittsburgh,entire_home,No,No,,https://airbnb.com/rooms/21581663
+Townhouse in Mount Washington,4.94 (79),40.429878,-80.009453,$123,Yes,14,Urban Retreat with Garage on Mt Washington,entire_home,No,No,,https://airbnb.com/rooms/631044042564529485
+Guesthouse in South Side Flats,4.96 (26),40.42869,-79.97621,$41,No,0,Room in center of Southside,private_room,No,Yes,,https://airbnb.com/rooms/824171128069270843
+Apartment in Bloomfield,4.81 (197),40.46637,-79.9522,$90,Yes,15,Apt 6 Bloomfield/Lawrenceville private mini studio,entire_home,No,Yes,,https://airbnb.com/rooms/31218236
+Apartment in Shadyside,4.9 (242),40.45408,-79.93042,$163,Yes,19,Upscale Double King Bed Suite ~ Steps from Walnut!,entire_home,No,Yes,,https://airbnb.com/rooms/54194853
+Home in Mount Washington,4.87 (162),40.43577,-80.01776,$78,No,0,Charming 1 bedroom contemporary unit with a view,entire_home,No,Yes,,https://airbnb.com/rooms/45828548
+Apartment in Pittsburgh,4.92 (425),40.50506,-80.08638,$98,No,0,Historic Charmer | Spacious | Off Street Parking,entire_home,No,Yes,,https://airbnb.com/rooms/7380633
+Apartment in Pittsburgh,4.97 (129),40.48280334472656,-79.97505187988281,$88,No,0,Cute Apt Minutes from Downtown and Stadiums!!,entire_home,No,Yes,,https://airbnb.com/rooms/43805814
+Home in Pittsburgh,4.69 (141),40.43344,-80.06565,$91,Yes,54,Perfect Pittsburgh Home Close To City & Airport,entire_home,No,No,,https://airbnb.com/rooms/36751375
+Home in Mount Washington,4.94 (65),40.41951,-80.01493,$80,No,0,Contemporary  and beautiful 1 bedroom unit,entire_home,No,Yes,,https://airbnb.com/rooms/746886670410861413
+Apartment in South Side Flats,4.94 (16),40.4261739,-79.98040089999999,$75,No,0,New & Spacious Apartment in Pittsburgh,entire_home,No,No,,https://airbnb.com/rooms/1204302036470792308
+Condo in Shadyside,4.56 (39),40.45403,-79.93324,$62,Yes,10,Walking Distance to Walnut St/UPMC/CMU !,entire_home,No,Yes,,https://airbnb.com/rooms/51619199
+Apartment in Mount Washington,4.91 (426),40.42767,-80.00466,$115,No,0,Pittsburgh Skyline Views - Luxury 1 Bedroom,entire_home,No,No,,https://airbnb.com/rooms/28683923
+Home in Pittsburgh,4.98 (167),40.4559,-80.00051,$374,Yes,98,Luxe Home★ Amazing Yard★ Firepit★ 2 Rooftop Decks,entire_home,No,No,,https://airbnb.com/rooms/30397722
+Apartment in Pittsburgh,4.88 (290),40.43628,-79.97998,$75,No,0,Cozy + Modern apartment near the city!,entire_home,No,No,,https://airbnb.com/rooms/23568964
+Apartment in Bloomfield,4.91 (219),40.46254,-79.93994,$75,Yes,13,Cozy Entire Apt 3 *Friendship Park *free parking,entire_home,No,Yes,,https://airbnb.com/rooms/35677653
+Room in Pittsburgh,4.95 (276),40.36404,-80.00791,$34,No,0,Castle Shannon's Home Away From Home.,private_room,No,No,,https://airbnb.com/rooms/20092517
+Apartment in Regent Square,5.0 (25),40.43061,-79.89703,$127,No,0,"""April's Haven"" Regent Square King Frick Park",entire_home,No,No,,https://airbnb.com/rooms/1118148366841888829
+Apartment in Pittsburgh,4.84 (154),40.45075,-80.01365,$89,No,0,Central Location Suite | Walkable Entertainment,entire_home,No,No,,https://airbnb.com/rooms/45975808
+Apartment in Pittsburgh,4.83 (6),40.46975560000001,-79.90533672327881,$117,No,0,1st Fl. Huge Flat on 2 Acres - Pets/Garage Parking,entire_home,No,No,,https://airbnb.com/rooms/923903282168238721
+Apartment in Pittsburgh,4.88 (205),40.46581,-79.93626,$75,No,0,SPACIOUS 1 BEDROOM APT IN PITTSBURGH (K1),entire_home,No,Yes,,https://airbnb.com/rooms/35549774
+Home in Pittsburgh,5.0 (15),40.4231589,-79.9803585,$96,Yes,13,Italy Charm in Southside Slopes,entire_home,No,No,,https://airbnb.com/rooms/1151808250974298151
+Guest suite in Pittsburgh,4.98 (410),40.47073,-79.96457,$126,No,0,"Lawrenceville Designer “Tiny Living”, Walkable",entire_home,No,Yes,,https://airbnb.com/rooms/50180599
+Apartment in Pittsburgh,4.86 (7),40.3727364,-79.971485,$97,Yes,20,"2bdr apt w/ KING bed, fast Wi-Fi",entire_home,No,Yes,,https://airbnb.com/rooms/1029672165569330033
+Guest suite in Pittsburgh,4.84 (230),40.48182,-80.03298,$65,No,0,420 friendly aparthotel (suite 3) w custom shower,private_room,No,No,,https://airbnb.com/rooms/22706349
+Bungalow in Carnegie,4.98 (146),40.40551,-80.094,$74,No,0,Groovy Retro Get-Away,entire_home,No,Yes,,https://airbnb.com/rooms/54314136
+Condo in Pittsburgh,4.87 (15),40.44355,-79.9992,$78,Yes,56,"Coze 1BD, DT, Walk to Convention Center & PNC Park",entire_home,No,No,,https://airbnb.com/rooms/1183505800526330836
+Apartment in Pittsburgh,4.91 (35),40.461312,-79.9478166,$80,Yes,22,Elevator~King Bed ~Parking~West Penn~10 min to DT,entire_home,No,No,,https://airbnb.com/rooms/914537438267074561
+Guesthouse in Pittsburgh,4.82 (17),40.43021,-79.97568,$41,No,0,Cozy room-Walking in the SS,private_room,No,Yes,,https://airbnb.com/rooms/823362505591556252
+Loft in Pittsburgh,4.98 (399),40.46175,-79.92923,$124,No,0,The loft getaway,entire_home,No,Yes,,https://airbnb.com/rooms/15913069
+Apartment in Pittsburgh,4.85 (52),40.45627,-80.02652,$76,Yes,19,Driveway Parking - Clean - Cozy,entire_home,No,No,,https://airbnb.com/rooms/1102128309315012317
+Room in Pittsburgh,4.84 (291),40.4312,-79.92407,$54,Yes,6,Private bath 1st floor suite in Squirrel Hill,private_room,No,No,,https://airbnb.com/rooms/23762160
+Apartment in Pittsburgh,4.57 (14),40.4645713,-79.94681419999999,$91,Yes,48,Mathilda Street Trio - The Lodge with King Bed,entire_home,No,Yes,,https://airbnb.com/rooms/1168389721730988784
+Room in Pittsburgh,4.99 (162),40.45337,-80.01158,$129,No,0,"Mexican War Streets, B & B, The Heinz Suite.",private_room,No,No,,https://airbnb.com/rooms/45015086
+Home in Pittsburgh,4.9 (69),40.4535221,-79.9512934,$137,Yes,49,3 Story home with 11 beds!,entire_home,No,No,,https://airbnb.com/rooms/952880614551608309
+Apartment in Pittsburgh,5.0 (30),40.45567,-79.92947,$170,Yes,24,Upscale 2 BR Suite ~ Private deck & Walkable!,entire_home,No,Yes,,https://airbnb.com/rooms/1187768666467400908
+Loft in Pittsburgh,4.98 (399),40.46175,-79.92923,$124,No,0,The loft getaway,entire_home,No,Yes,,https://airbnb.com/rooms/15913069
+Home in Pittsburgh,4.51 (68),40.50041,-80.01617,$85,No,0,Splendid Summer Hill Home Away From Home,entire_home,No,Yes,,https://airbnb.com/rooms/785637808863414894
+Room in Pittsburgh,4.99 (162),40.45337,-80.01158,$129,No,0,"Mexican War Streets, B & B, The Heinz Suite.",private_room,No,No,,https://airbnb.com/rooms/45015086
+Apartment in Pittsburgh,5.0 (30),40.45567,-79.92947,$170,Yes,24,Upscale 2 BR Suite ~ Private deck & Walkable!,entire_home,No,Yes,,https://airbnb.com/rooms/1187768666467400908
+Home in Pittsburgh,5.0 (6),40.46548,-79.95203,$80,Yes,38,Cute Rowhouse Near Hospitals,entire_home,No,Yes,,https://airbnb.com/rooms/1149137700426908801
+Home in Pittsburgh,4.88 (49),40.39547,-80.01804,$55,Yes,34,Comfortable and Cozy Duplex half,entire_home,No,Yes,,https://airbnb.com/rooms/34478615
+Home in Pittsburgh,4.96 (24),40.41872,-80.0479,$132,No,0,Charming home in Greentree,entire_home,No,Yes,,https://airbnb.com/rooms/983588349260439837
+Apartment in Pittsburgh,4.94 (18),40.4587381,-80.00135759999999,$75,No,0,Million dollar backyard view!,entire_home,No,Yes,,https://airbnb.com/rooms/1081843397705627649
+Apartment in Pittsburgh,5.0 (4),40.45344,-80.02822,$173,No,0,"2BR/Quiet area/Near Stadiums, DT, Universities…",entire_home,No,No,,https://airbnb.com/rooms/1217712070721747472
+Home in Pittsburgh,5.0 (6),40.45232,-79.99898,$253,Yes,232,3Br/3Ba For 8 |Walk to Stadiums|  Private Parking,entire_home,No,No,,https://airbnb.com/rooms/1195069784180293935
+Room in Pittsburgh,4.46 (134),40.43741,-79.9841,$39,No,0,Lux Room Next to Downtown,private_room,No,No,,https://airbnb.com/rooms/21477364
+Apartment in Pittsburgh,5.0 (21),40.45418,-79.93611,$81,Yes,14,Spacious 2BR~Steps to Walnut St~Outdoor TV~Parking,entire_home,No,Yes,,https://airbnb.com/rooms/1121838439371464954
+Room in Pittsburgh,4.88 (129),40.41817,-80.01091,$63,No,0,Spacious Entire Floor with Private bathroom,private_room,No,No,,https://airbnb.com/rooms/30822151
+Apartment in Pittsburgh,4.96 (93),40.45566,-79.94382,$87,No,0,NEW* Apt B Bloomfield/ Shadyside & Free parking,entire_home,No,Yes,,https://airbnb.com/rooms/721947276558269218
+Guest suite in Pittsburgh,4.63 (19),40.4362513,-80.0553041,$58,No,0,Basement studio on a quiet neighborhood.,entire_home,No,No,,https://airbnb.com/rooms/695885277149581896
+Townhouse in Pittsburgh,4.92 (50),40.37621,-80.03296,$96,Yes,10,Mt.Lebanon-3 Bedrooms-Family Friendly-clean-Neat,entire_home,No,No,,https://airbnb.com/rooms/721959955989634428
+Home in West Mifflin,5.0 (7),40.38748,-79.88051,$171,Yes,52,Plan your next thrilling city break minutes to ken,entire_home,No,No,,https://airbnb.com/rooms/1139211807773234954
+Home in Pittsburgh,4.78 (115),40.40445,-80.01824,$76,Yes,11,Restful Nest,entire_home,No,No,,https://airbnb.com/rooms/53032881
+Apartment in Pittsburgh,4.85 (87),40.45634,-79.99601,$83,No,0,Brand New! In the heart of Pgh!,entire_home,No,Yes,,https://airbnb.com/rooms/997332043338191745
+Apartment in Pittsburgh,4.79 (73),40.4641327,-79.96221950000002,$95,No,0,*SAUNA* Cozy Lawrenceville Flat - Steps to butler,entire_home,No,No,,https://airbnb.com/rooms/839698543911154466
+Home in Pittsburgh,5.0 (37),40.4404869,-80.02490519999999,$209,No,0,Mount Memento: City Escape w. Grand View/Game Room,entire_home,No,No,,https://airbnb.com/rooms/958787114327763118
+Home in Pittsburgh,4.92 (119),40.41741,-79.94187,$166,Yes,61,Completely Renovated 4-Bedroom with Parking,entire_home,No,Yes,,https://airbnb.com/rooms/716760567375793354
+Home in Pittsburgh,4.87 (459),40.46396,-79.93373,$75,No,0,PRIVATE MINI STUDIO (D2),entire_home,No,Yes,,https://airbnb.com/rooms/20044956
+Condo in Pittsburgh,4.83 (23),40.44067,-79.99743,$109,No,0,LUXE Location!  with an Exceptional View,entire_home,No,Yes,,https://airbnb.com/rooms/1003641654378444636
+Loft in Pittsburgh,4.97 (275),40.45055,-79.98439,$138,No,0,The Ultimate Urban Loft-A WALKABLE-Hot Property!,entire_home,No,No,,https://airbnb.com/rooms/31175165
+Apartment in Pittsburgh,4.78 (621),40.45359,-79.93783,$75,No,0,Sunny Spacious Shadyside 1 bedroom,entire_home,No,Yes,,https://airbnb.com/rooms/17207822
+Apartment in Pittsburgh,5.0 (4),40.45867,-79.94133,$162,No,0,Bloomfield/Shadyside @2 Modern&Spacious 2BD w/Prkg,entire_home,No,No,,https://airbnb.com/rooms/1243668930893946752
+Home in Pittsburgh,5.0 (79),40.36078,-80.05974,$187,No,0,Seneca Place: A historic home in Mount Lebanon.,entire_home,No,Yes,,https://airbnb.com/rooms/37495327
+Apartment in Pittsburgh,4.93 (15),40.461312,-79.9478166,$83,No,0,~Parking~ Elevator ~West Penn~ Centrally Located,entire_home,No,No,,https://airbnb.com/rooms/914374005741661981
+Apartment in Millvale,4.94 (66),40.48516884425168,-79.97275459522876,$86,No,0,*Spacious & Cozy* 1BR Millvale apt,entire_home,No,Yes,,https://airbnb.com/rooms/834966485394363076
+Apartment in Pittsburgh,4.81 (26),40.4277,-79.97101,$63,Yes,17,⁂ Cozy Nook off Carson - Parking & Private Entry ⁂,entire_home,No,Yes,,https://airbnb.com/rooms/1024005656340725193
+Apartment in Pittsburgh,4.91 (376),40.4949,-79.85697,$80,No,0,Comfort Central,entire_home,No,Yes,,https://airbnb.com/rooms/49179438
+Home in Pittsburgh,4.94 (277),40.405079,-79.986877,$136,No,0,Large house to relax with friends and family,entire_home,No,Yes,,https://airbnb.com/rooms/605187113475493636
+Guest suite in Pittsburgh,4.96 (56),40.46619,-79.925421,$111,No,0,The Maple Jazz - Private Entrance Apartment,entire_home,No,No,,https://airbnb.com/rooms/858659033161942742
+Home in Pittsburgh,4.3 (10),40.36179,-80.03668,$94,No,0,Luxe Mt. Lebanon Home | Sleeps 6 | Central,entire_home,No,Yes,,https://airbnb.com/rooms/1214118835563034733
+Apartment in Pittsburgh,4.92 (26),40.45246,-79.93602,$182,No,0,Huge Open Concept 2BR by Walnut,entire_home,No,Yes,,https://airbnb.com/rooms/1126265969383235638
+Loft in Pittsburgh,5.0 (3),40.4556146,-79.9532909,$126,No,0,*New* Loft 5 min to PPG/Convention center Sleeps 4,entire_home,No,Yes,,https://airbnb.com/rooms/1244907964764442593
+Apartment in Pittsburgh,4.86 (449),40.46414,-79.93517,$76,Yes,10,PRIVATE MINI STUDIO (C1),entire_home,No,Yes,,https://airbnb.com/rooms/20793772
+Home in Pittsburgh,New,40.437181347646025,-80.01754010465248,$266,No,0,Firepit + Walkable + Wii Games in Mt Washington,entire_home,No,No,,https://airbnb.com/rooms/1251680198294717291
+Loft in Pittsburgh,4.88 (128),40.46021545548025,-79.97154891771768,$118,No,0,Lovely Strip District loft with free parking,entire_home,No,Yes,,https://airbnb.com/rooms/721002735283255106
+Home in Clairton,5.0 (23),40.3181711,-79.90322909999999,$104,No,0,All new. Near all PGH activities,entire_home,No,Yes,,https://airbnb.com/rooms/1066878194279302746
+Home in Morgan,4.94 (64),40.35474,-80.14277,$88,No,0,Cheerful 2-Bedroom near to All Things Pittsburgh,entire_home,No,Yes,,https://airbnb.com/rooms/684843154314507719
+Home in Pittsburgh,New,40.42959,-79.98656,$195,No,0,A Perfect South Side Getaway,entire_home,No,Yes,,https://airbnb.com/rooms/1232615047528720629
+Apartment in Pittsburgh,4.78 (156),40.46381,-79.93436,$69,No,0,PRIVATE MINI STUDIO IN BRIGHT NEW BASEMENT (B2),entire_home,No,Yes,,https://airbnb.com/rooms/53758425
+Room in Pittsburgh,New,40.45549,-79.9394,$68,No,0,Bloomfield/Shadyside @D Spacious&Unique Private Bd,private_room,No,No,,https://airbnb.com/rooms/1243649303503524083
+Room in Pittsburgh,4.81 (79),40.44496,-79.92996,$55,No,0,Private Room Near Carnegie Mellon University-Queen,private_room,No,No,,https://airbnb.com/rooms/906117082382340021
+Home in Pittsburgh,4.9 (134),40.39749,-80.02194,$96,No,0,"Urban Oasis, Easy city access",entire_home,No,Yes,,https://airbnb.com/rooms/48917685
+Cottage in Glenshaw,4.94 (406),40.52915,-79.9585,$161,No,0,Glenshaw Guesthouse,entire_home,No,Yes,,https://airbnb.com/rooms/23536931
+Apartment in Pittsburgh,4.86 (28),40.46241,-79.94704,$75,No,0,Bloomfield~ West Penn~ Elevator~Parking~Queen Bed,entire_home,No,No,,https://airbnb.com/rooms/914503834831411304
+Home in Pittsburgh,New,40.325995667404015,-79.98945098444025,$65,No,0,Farmhouse Retreat with Big Yard,entire_home,No,No,,https://airbnb.com/rooms/1247992480652725363
+Apartment in Pittsburgh,4.96 (70),40.4320816,-80.00801609999999,$224,No,0,Grandview Ave Luxe - Sweeping City Views & More!,entire_home,No,No,,https://airbnb.com/rooms/910482668178106270
+Apartment in Pittsburgh,4.99 (140),40.43869,-79.99198,$149,No,0,On Site Gym★ Purple Mattress ★ Park Free!,entire_home,No,Yes,,https://airbnb.com/rooms/581388540379415554
+Room in Pittsburgh,5.0 (13),40.46076,-79.95221,$32,Yes,3,A cozy bright room in Pittsburgh,private_room,No,No,,https://airbnb.com/rooms/1147679578463198077
+Apartment in Aspinwall,4.98 (51),40.4915208,-79.9039864,$125,No,0,Aspinwall 1 bedroom Apartment,entire_home,No,Yes,,https://airbnb.com/rooms/805282526113498748
+Apartment in Pittsburgh,5.0 (17),40.445698,-80.03743,$95,No,0,"West End, Best End: 2 BR Apt",entire_home,No,Yes,,https://airbnb.com/rooms/598717920606471425
+Home in Pittsburgh,4.95 (98),40.39407,-80.03991,$177,No,0,The Pittsburgh Haus | Charitable BnB,entire_home,No,No,,https://airbnb.com/rooms/53940743
+Apartment in Pittsburgh,4.9 (10),40.42369,-80.01194,$86,Yes,51,Renovated Two Bedroom with Easy City Access and Of,entire_home,No,Yes,,https://airbnb.com/rooms/1148453756243548482
+Apartment in Pittsburgh,4.89 (28),40.42033,-79.8857,$68,No,0,Modern Studio Close to Popular Pittsburgh Sights,entire_home,No,No,,https://airbnb.com/rooms/552285794090146550
+Apartment in Avalon,New,40.498752919544295,-80.06757784176979,$93,No,0,"Pleasant Getaway in Avalon, PA",entire_home,No,Yes,,https://airbnb.com/rooms/686159412675734117
+Apartment in Pittsburgh,4.94 (98),40.452,-79.9999,$121,Yes,379,Private Parking • Patio • KING bed •Cozy Oasis,entire_home,No,No,,https://airbnb.com/rooms/1078121856262460685
+Home in Pittsburgh,5.0 (4),40.40801,-79.98333,$100,No,0,Whole house with private yard on quiet street,entire_home,No,Yes,,https://airbnb.com/rooms/1212494199893280606
+Apartment in Pittsburgh,4.87 (127),40.46262,-79.93942,$48,Yes,8,Special Retreat Turquoise 1 BR •Self Check In•,entire_home,No,No,,https://airbnb.com/rooms/52965328
+Apartment in Pittsburgh,4.75 (281),40.46657,-79.95282,$90,Yes,15,Apt 9 Bloomfield / Lawrenceville small private 1br,entire_home,No,Yes,,https://airbnb.com/rooms/31219838
+Apartment in Pittsburgh,4.83 (369),40.43618,-79.97939,$62,No,0,Uptown Apartment - right up from Pittsburgh!,entire_home,No,Yes,,https://airbnb.com/rooms/16824003
+Room in Pittsburgh,4.99 (361),40.45539,-80.01314,$123,No,0,"Mexican War Streets, B & B, The Allegheny Suite.",private_room,No,No,,https://airbnb.com/rooms/18755852
+Apartment in Pittsburgh,4.97 (61),40.45442,-79.9299,$148,No,0,Shadyside 2Bed 2Bath w/ Parking!,entire_home,No,Yes,,https://airbnb.com/rooms/1053873245183350999
+Home in Pittsburgh,4.87 (46),40.452941316071495,-79.9999883661316,$181,Yes,699,4 Bedrooms • Patio • Stay in Style • Free parking,entire_home,No,No,,https://airbnb.com/rooms/1119861838436795812
+Apartment in Pittsburgh,4.93 (30),40.46084,-79.93139,$99,No,0,Spacious KingSuite by WholeFoods,entire_home,No,Yes,,https://airbnb.com/rooms/1121845889378196820
+Apartment in Pittsburgh,4.73 (26),40.46344,-79.94092,$48,No,0,Cozy Basement • Self Check In•,entire_home,No,No,,https://airbnb.com/rooms/888967883887226606
+Home in Pittsburgh,4.92 (291),40.43481,-79.92867,$130,No,0,Upscale Modern 2 BR Apartment,entire_home,No,Yes,,https://airbnb.com/rooms/18408435
+Home in Pittsburgh,4.9 (39),40.46438,-79.96261,$105,No,0,Lawrenceville 3BR Ping-Pong Pad,entire_home,No,No,,https://airbnb.com/rooms/1041682274490530590
+Apartment in Pittsburgh,4.86 (81),40.45577,-80.0106,$101,No,0,Dazzling Northside Stunner,entire_home,No,Yes,,https://airbnb.com/rooms/716722672990675654
+Apartment in Pittsburgh,4.52 (21),40.45268455889965,-80.02714019268751,$107,No,0,Luxury 2BR/ 2B Northshore | Stadium walk Parking,entire_home,No,Yes,,https://airbnb.com/rooms/1156713995006850120
+Room in Pittsburgh,4.99 (361),40.45539,-80.01314,$123,No,0,"Mexican War Streets, B & B, The Allegheny Suite.",private_room,No,No,,https://airbnb.com/rooms/18755852
+Apartment in Pittsburgh,4.86 (81),40.45577,-80.0106,$101,No,0,Dazzling Northside Stunner,entire_home,No,Yes,,https://airbnb.com/rooms/716722672990675654
+Apartment in Pittsburgh,4.97 (61),40.45442,-79.9299,$148,No,0,Shadyside 2Bed 2Bath w/ Parking!,entire_home,No,Yes,,https://airbnb.com/rooms/1053873245183350999
+Home in Pittsburgh,4.56 (119),40.45269,-80.00109,$65,No,0,North Shore comfort. Walkable to Pittsburgh fun!,entire_home,No,No,,https://airbnb.com/rooms/50755480
+Apartment in Pittsburgh,4.36 (14),40.4703069,-79.97875169999999,$64,Yes,7,Lovely Cozy Basement Apartment,entire_home,No,Yes,,https://airbnb.com/rooms/1097824928843877921
+Room in Pittsburgh,5.0 (3),40.46266,-80.00534,$49,Yes,10,"Unique, Vibrant Space with A PingPong Table",private_room,No,No,,https://airbnb.com/rooms/1197092072277311940
+Home in Pittsburgh,4.92 (291),40.43481,-79.92867,$130,No,0,Upscale Modern 2 BR Apartment,entire_home,No,Yes,,https://airbnb.com/rooms/18408435
+Apartment in Pittsburgh,4.93 (30),40.46084,-79.93139,$99,No,0,Spacious KingSuite by WholeFoods,entire_home,No,Yes,,https://airbnb.com/rooms/1121845889378196820
+Home in Pittsburgh,4.75 (12),40.42294,-80.0139,$68,No,0,Peaceful Mt. Washington home near downtown!,entire_home,No,No,,https://airbnb.com/rooms/1175327357491005674
+Apartment in Pittsburgh,4.77 (555),40.46497,-79.95473,$93,Yes,10,Apt 1 Lawrenceville private 1br,entire_home,No,Yes,,https://airbnb.com/rooms/12948969
+Home in Bethel Park,4.84 (112),40.34794,-80.0353,$208,Yes,52,Cozy Home near DT PGH 🐶 friendly + fenced yard!,entire_home,No,No,,https://airbnb.com/rooms/44362872
+Home in Pittsburgh,5.0 (5),40.45197,-80.01775,$198,Yes,39,Charming Home near Acrisure,entire_home,No,No,,https://airbnb.com/rooms/1199370160993294354
+Apartment in Pittsburgh,5.0 (12),40.45256,-79.93586,$91,No,0,Huge King Suite Just off Walnut,entire_home,No,Yes,,https://airbnb.com/rooms/1121832468307911157
+Home in Pittsburgh,4.9 (62),40.43184,-80.0118,$230,Yes,98,Manor on the Mount,entire_home,No,Yes,,https://airbnb.com/rooms/659248574425388495
+Home in Pittsburgh,4.64 (14),40.44139,-80.04277,$103,Yes,55,Light-Bright with Craftsman Character and Views!,entire_home,No,No,,https://airbnb.com/rooms/1024104692124568301
+Apartment in Pittsburgh,4.82 (603),40.46598,-79.95362,$97,No,0,Apt 4 Lawrenceville studio,entire_home,No,Yes,,https://airbnb.com/rooms/12948798
+Apartment in Pittsburgh,4.74 (125),40.45404,-80.02105,$96,No,0,Walkable & Spacious | Free Parking Pad,entire_home,No,No,,https://airbnb.com/rooms/54256755

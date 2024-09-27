@@ -1,3 +1,31 @@
-Position,Amenity,Price
-市中心,早餐,120
-郊区,WiFi,80
+Hotel Name,Price,Star,Review,Score,Location
+Even Hotel Pittsburgh Downtown,$169,4 stars,Very good (1110),8.2,Downtown
+Hyatt Place Pittsburgh North Shore,$199,3 stars,Very good (1619),8.0,North Shore
+Omni William Penn Hotel,$260,4 stars,Very good (2109),8.8,Downtown
+Drury Plaza Hotel Pittsburgh Downtown,$188,3 stars,Wonderful (1768),9.1,Downtown
+Drury Inn & Suites Pittsburgh Airport Settlers Ridge,$150,3 stars,Wonderful (327),9.6,"Pittsburgh, PA"
+Hilton Garden Inn Pittsburgh Airport South-Robinson Mall,$143,3 stars,Very good (84),8.4,"Pittsburgh, PA"
+Fairfield Inn & Suites by Marriott Pittsburgh Airport/Robinson Township,$139,2 stars,Very good (143),8.0,"Pittsburgh, PA"
+SpringHill Suites by Marriott Pittsburgh North Shore,$149,3 stars,Very good (695),8.0,North Shore
+Residence Inn by Marriott Pittsburgh North Shore,$149,3 stars,Very good (721),8.2,North Shore
+TownePlace Suites by Marriott Pittsburgh Airport/Robinson Township,$129,3 stars,Very good (143),8.7,"Pittsburgh, PA"
+Courtyard by Marriott Pittsburgh Airport Settlers Ridge,$149,3 stars,Very good (224),8.6,"Nearby - Duquesne Incline, Carnegie Science Center"
+"The Industrialist Hotel, Pittsburgh, Autograph Collection",$188,4 stars,Very good (173),8.2,Downtown
+Homewood Suites by Hilton Pittsburgh-Downtown,$199,3 stars,Very good (280),8.3,Strip District
+Mcknight Hotel,$108,2 stars,Okay (106),6.0,"Pittsburgh, PA"
+DoubleTree by Hilton Pittsburgh-Green Tree,$171,4 stars,Good (1330),7.4,"Pittsburgh, PA"
+Staybridge Suites Pittsburgh Airport,$164,3 stars,Very good (985),8.9,"Pittsburgh, PA"
+SpringHill Suites by Marriott Pittsburgh Southside Works,$189,3 stars,Very good (322),8.1,South Side Flats
+Courtyard by Marriott Pittsburgh Downtown,$189,3 stars,Very good (101),8.6,Downtown
+Hyatt Place Pittsburgh Airport,$159,3 stars,Very good (372),8.0,"Pittsburgh, PA"
+Hampton Inn & Suites Pittsburgh-Downtown,$209,3 stars,Very good (1769),8.8,"Pittsburgh, PA"
+Holiday Inn Express & Suites Pittsburgh North Shore,$189,2 stars,Good (1707),7.8,North Shore
+DoubleTree by Hilton Hotel & Suites Pittsburgh Downtown,$254,3 stars,Good (1143),7.7,Downtown
+Red Roof Inn Plus+ Pittsburgh South - Airport,$80,2 stars,Okay (760),6.1,"Pittsburgh, PA"
+Hyatt Regency Pittsburgh International Airport,$249,3 stars,Very good (1357),8.4,"Nearby - Carnegie Science Center, Duquesne Incline"
+The Westin Pittsburgh,$279,4 stars,Very good (466),8.2,Downtown
+Sonesta Simply Suites Pittsburgh Airport,$139,3 stars,Very good (369),8.2,"Pittsburgh, PA"
+"Holiday Inn Express Hotel & Suites Pittsburgh-South Side, An IHG Hotel",$169,3 stars,Okay (1273),6.6,South Side Flats
+The Landing Hotel Pittsburgh,$219,3 stars,Very good (843),8.9,"Pittsburgh, PA"
+Fairfield Inn & Suites by Marriott Pittsburgh Neville Island,$139,2 stars,Good (229),7.8,"Pittsburgh, PA"
+The Maverick by Kasa,$209,3 stars,Good (35),7.3,East Liberty

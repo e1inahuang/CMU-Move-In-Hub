@@ -25,9 +25,10 @@ def short_term():
 
 @app.route('/long_term')
 def long_term():
-    long_term_df = pd.read_csv('data/long_term_housing.csv')
-    apartments = long_term_df.groupby('apartment_name').apply(lambda x: x.to_dict(orient='records')).to_dict()
-    return render_template('long_term.html', apartments=apartments)
+    long_term_df = pd.read_csv('data/long_term_housing.csv').to_dict(orient='records')
+    print(long_term_df)
+    # apartments = long_term_df.groupby('Apartment Name').apply(lambda x: x.to_dict(orient='records')).to_dict()
+    return render_template('long_term.html', apartments=long_term_df)
 
 
 if __name__ == '__main__':

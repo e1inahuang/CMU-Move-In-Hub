@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,39 +46,65 @@
 <body>
     <h1>Short-Term Housing</h1>
     <div class="container">
-        <!-- Hotel 表格 -->
+        <!-- Hotel Table -->
         <div class="table-container">
             <h2>Hotel</h2>
             <table>
                 <tr>
-                    <th>Position</th>
-                    <th>Amenity</th>
-                    <th>Price($/day)</th>
+                    <th>Hotel Name</th>
+                    <th>Price</th>
+                    <th>Star</th>
+                    <th>Review</th>
+                    <th>Score</th>
+                    <th>Location</th>
                 </tr>
                 {% for row in hotel_data %}
                 <tr>
-                    <td>{{ row.Position }}</td>
-                    <td>{{ row.Amenity }}</td>
-                    <td>{{ row.Price }}</td>
+                    <td>{{ row['Hotel Name'] }}</td>
+                    <td>{{ row['Price'] }}</td>
+                    <td>{{ row['Star'] }}</td>
+                    <td>{{ row['Review'] }}</td>
+                    <td>{{ row['Score'] }}</td>
+                    <td>{{ row['Location'] }}</td>
                 </tr>
                 {% endfor %}
             </table>
         </div>
 
-        <!-- Airbnb -->
+        <!-- Airbnb Table -->
         <div class="table-container">
             <h2>Airbnb</h2>
             <table>
                 <tr>
-                    <th>Price($/day)</th>
-                    <th>Amenity</th>
-                    <th>Landlord</th>
+                    <th>Apartment Name</th>
+                    <th>Average Rating</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Price</th>
+                    <th>Discount</th>
+                    <th>Save Money</th>
+                    <th>Character</th>
+                    <th>Room Type</th>
+                    <th>Pets Allowed</th>
+                    <th>Free Cancellation</th>
+                    <th>Amenities</th>
+                    <th>URL</th>
                 </tr>
                 {% for row in airbnb_data %}
                 <tr>
-                    <td>{{ row.Price }}</td>
-                    <td>{{ row.Amenity }}</td>
-                    <td>{{ row.Landlord }}</td>
+                    <td>{{ row['Apartment Name'] }}</td>
+                    <td>{{ row['Average Rating'] }}</td>
+                    <td>{{ row['Latitude'] }}</td>
+                    <td>{{ row['Longitude'] }}</td>
+                    <td>{{ row['Price'] }}</td>
+                    <td>{{ row['Discount'] }}</td>
+                    <td>{{ row['Save Money'] }}</td>
+                    <td>{{ row['Character'] }}</td>
+                    <td>{{ row['Room Type'] }}</td>
+                    <td>{{ row['Pets_allowed'] }}</td>
+                    <td>{{ row['Free canceled'] }}</td>
+                    <td>{{ row['Amenities'] }}</td>
+                    <td><a href="{{ row['URL'] }}">Link</a></td>
                 </tr>
                 {% endfor %}
             </table>

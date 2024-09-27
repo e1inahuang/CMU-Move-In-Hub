@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Long-Term Housing</title>
     <style>
+        /* Basic styling for the table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
         /* Basic styling for the buttons */
         .button {
             display: inline-block;
@@ -25,25 +41,33 @@
 </head>
 <body>
     <h1>Long-Term Housing Options</h1>
-    <table border="1">
+    <table>
         <thead>
             <tr>
                 <th>Apartment Name</th>
-                <th>Unit</th>
-                <th>Rent</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>Zip Code</th>
+                <th>Price</th>
+                <th>Room</th>
                 <th>Amenities</th>
+                <th>Phone</th>
+                <th>URL</th>
             </tr>
         </thead>
         <tbody>
-            {% for apartment_name, units in apartments.items() %}
-                {% for unit in units %}
-                <tr>
-                    <td>{{ apartment_name }}</td>
-                    <td>{{ unit['unit'] }}</td>
-                    <td>{{ unit['rent'] }}</td>
-                    <td>{{ unit['amenities'] }}</td>
-                </tr>
-                {% endfor %}
+            {% for row in apartments %}
+            <tr>
+                <td>{{ row['Apartment Name'] }}</td>
+                <td>{{ row['Address'] }}</td>
+                <td>{{ row['City'] }}</td>
+                <td>{{ row['Zip Code'] }}</td>
+                <td>{{ row['Price'] }}</td>
+                <td>{{ row['Room'] }}</td>
+                <td>{{ row['Amenities'] }}</td>
+                <td>{{ row['Phone'] }}</td>
+                <td><a href="{{ row['URL'] }}">Link</a></td>
+            </tr>
             {% endfor %}
         </tbody>
     </table>
