@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>短期选择</title>
+    <title>Short-Term Housing</title>
     <style>
         .container {
             display: flex;
@@ -23,10 +23,28 @@
             padding: 8px;
             text-align: left;
         }
+        /* Button styling */
+        .button-container {
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: #4CAF50;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
     </style>
 </head>
 <body>
-    <h1>短期选择</h1>
+    <h1>Short-Term Housing</h1>
     <div class="container">
         <!-- Hotel 表格 -->
         <div class="table-container">
@@ -47,7 +65,7 @@
             </table>
         </div>
 
-        <!-- Airbnb 表格 -->
+        <!-- Airbnb -->
         <div class="table-container">
             <h2>Airbnb</h2>
             <table>
@@ -65,6 +83,12 @@
                 {% endfor %}
             </table>
         </div>
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="button-container">
+        <a href="/" class="button">Home</a>
+        <a href="javascript:history.back()" class="button">Back to Last Page</a>
     </div>
 </body>
 </html>

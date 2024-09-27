@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>欢迎界面</title>
+    <title>CMU Move-In Hub</title>
 </head>
 <body>
-    <h1>欢迎来到我们的网站！</h1>
+    <h1>Welcome to the CMU Move-In Hub!</h1>
+    <p>
+        This app offers a comprehensive list of housing options for both long-term and short-term stays as you prepare to start the new semester.
+    </p>
+    <p>
+        - For leases lasting one year or more, click on ‘Long-Term Housing’.<br>
+        - For temporary accommodations ranging from a few days to several months, click on ‘Short-Term Housing’.
+    </p>
+    <p>We’re here to help you find the perfect place to call home!</p>
     <form action="{{ url_for('choice') }}" method="GET">
         <button type="submit">开始</button>
     </form>
