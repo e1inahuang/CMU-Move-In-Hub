@@ -1,4 +1,4 @@
-name: Build macOS Executable
+name: Build macOS Conda Executable
 
 on:
   workflow_dispatch:
@@ -14,26 +14,37 @@ jobs:
     runs-on: macos-latest
 
     steps:
+    # Step 1: Checkout repository
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
+    # Step 2: Install Miniconda
+    - name: Set up Miniconda
+      uses: conda-incubator/setup-miniconda@v2
       with:
-        python-version: '3.12'
+        auto-update-conda: true
+        python-version: 3.12
 
-    - name: Install dependencies
+    # Step 3: Create Conda environment
+    - name: Create Conda environment
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        conda env create -f environment.yml
+        conda activate fall24python
 
+    # Step 4: Install PyInstaller in Conda environment
     - name: Install PyInstaller
-      run: pip install pyinstaller
+      run: |
+        conda install -y pyinstaller
+        conda activate fall24python
 
+    # Step 5: Build executable with PyInstaller
     - name: Build with PyInstaller
-      run: pyinstaller --onefile gui.py
+      run: |
+        pyinstaller --onefile gui.py
+      shell: bash
 
-    - name: Upload Build Artifact
+    # Step 6: Upload the built artifact
+    - name: Upload macOS Executable
       uses: actions/upload-artifact@v3
       with:
         name: macOS-executable
