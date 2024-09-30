@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Housing type</title>
-    <script>
-        function navigateToPage(value) {
-            if (value === 'short_term') {
-                window.location.href = "{{ url_for('short_term') }}";
-            } else if (value === 'long_term') {
-                window.location.href = "{{ url_for('long_term') }}";
-            }
-        }
-    </script>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block title %}Housing Type{% endblock %}
+
+{% block content %}
     <h1>Type of housing you are looking for:</h1>
     <form>
         <label>
@@ -24,5 +12,13 @@
             <input type="radio" name="option" value="long_term" onclick="navigateToPage(this.value)"> Long-term: Residence of one year or more
         </label>
     </form>
-</body>
-</html>
+    <script>
+        function navigateToPage(value) {
+            if (value === 'short_term') {
+                window.location.href = "{{ url_for('short_term') }}";
+            } else if (value === 'long_term') {
+                window.location.href = "{{ url_for('long_term') }}";
+            }
+        }
+    </script>
+{% endblock %}

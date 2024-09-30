@@ -1,79 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Long-Term Housing</title>
-    <style>
-        /* Basic styling for the table */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
+{% extends "base.html" %}
 
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
+{% block title %}Long-Term Housing{% endblock %}
 
-        th {
-            background-color: #f2f2f2;
-        }
+{% block styles %}
+<style>
+    /* Basic styling for the table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        color: white;
+        background-color: #4CAF50;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    .button:hover {
+        background-color: #45a049;
+    }
+</style>
+{% endblock %}
 
-        /* Basic styling for the buttons */
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            font-size: 16px;
-            color: white;
-            background-color: #4CAF50;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .button:hover {
-            background-color: #45a049;
-        }
-    </style>
-</head>
-<body>
-    <h1>Long-Term Housing Options</h1>
-    <table>
-        <thead>
+{% block content %}
+<h1>Long-Term Housing Options</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Apartment Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>Zip Code</th>
+            <th>Price</th>
+            <th>Room</th>
+            <th>Amenities</th>
+            <th>Phone</th>
+            <th>URL</th>
+            <th>Room Type</th>
+            <th>Unit Number</th>
+            <th>Unit Price</th>
+            <th>Unit Area</th>
+            <th>Available Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for name, rows in apartments.items() %}
+            {% for i, row in enumerate(rows) %}
             <tr>
-                <th>Apartment Name</th>
-                <th>Address</th>
-                <th>City</th>
-                <th>Zip Code</th>
-                <th>Price</th>
-                <th>Room</th>
-                <th>Amenities</th>
-                <th>Phone</th>
-                <th>URL</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for row in apartments %}
-            <tr>
-                <td>{{ row['Apartment Name'] }}</td>
-                <td>{{ row['Address'] }}</td>
-                <td>{{ row['City'] }}</td>
-                <td>{{ row['Zip Code'] }}</td>
-                <td>{{ row['Price'] }}</td>
-                <td>{{ row['Room'] }}</td>
-                <td>{{ row['Amenities'] }}</td>
-                <td>{{ row['Phone'] }}</td>
-                <td><a href="{{ row['URL'] }}">Link</a></td>
+                {% if loop.first %}
+                <td rowspan="{{ rows|length }}">{{ name }}</td>
+                <td rowspan="{{ rows|length }}">{{ row['Address'] }}</td>
+                <td rowspan="{{ rows|length }}">{{ row['City'] }}</td>
+                <td rowspan="{{ rows|length }}">{{ row['Zip Code'] }}</td>
+                <td rowspan="{{ rows|length }}">{{ row['Price'] }}</td>
+                <td rowspan="{{ rows|length }}">{{ row['Room'] }}</td>
+                <td rowspan="{{ rows|length }}">{{ row['Amenities'] }}</td>
+                <td rowspan="{{ rows|length }}">{{ row['Phone'] }}</td>
+                <td rowspan="{{ rows|length }}"><a href="{{ row['URL'] }}">Link</a></td>
+                {% endif %}
+                <td>{{ row['Room Type'] }}</td>
+                <td>{{ row['Unit Number'] }}</td>
+                <td>{{ row['Unit Price'] }}</td>
+                <td>{{ row['Unit Area'] }}</td>
+                <td>{{ row['Available Time'] }}</td>
             </tr>
             {% endfor %}
-        </tbody>
-    </table>
-    <br>
-    <!-- Navigation buttons -->
-    <a href="/" class="button">Home</a>
-    <a href="javascript:history.back()" class="button">Back to Last Page</a>
-</body>
-</html>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

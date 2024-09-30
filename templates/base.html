@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}CMU Move-In Hub{% endblock %}</title>
+    {% block styles %}{% endblock %}
+</head>
+<body>
+    <div class="container mt-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-nav">
+                <!-- Back to Last Page Button -->
+                <button class="btn btn-outline-secondary mr-2" onclick="window.history.back();">Back to Last Page</button>
+                <!-- Home Button -->
+                <a class="btn btn-primary" href="{{ url_for('welcome') }}">Home</a>
+            </div>
+        </nav>
+
+        <!-- Content that will be overridden by children templates -->
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>

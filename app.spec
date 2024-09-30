@@ -2,11 +2,11 @@
 
 block_cipher = None
 
-a = Analysis(['app.py'],
-             pathex=['D:/CMU_proj/Python/CMU-Move-In-Hub'],
+a = Analysis(['gui.py'],
+             pathex=['E:/Projects/CMU-Move-In-Hub'],
              binaries=[],
              datas=[('templates/*.html', 'templates'), ('data/*.csv', 'data')],
-             hiddenimports=[],
+             hiddenimports=['flask', 'PyQt5.QtWebEngineWidgets'],
              hookspath=[],
              runtime_hooks=[],
              excludes=[],
@@ -20,16 +20,16 @@ exe = EXE(pyz,
           a.scripts,
           [],
           exclude_binaries=True,
-          name='app',
+          name='CMU_Move_In_Hub',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
-          console=True) # console=True 如果你想要一个控制台窗口，对于调试很有帮助
+          console=False) # Set `console=True` if you want a console window for debugging
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
                a.datas,
                strip=False,
                upx=True,
-               name='app')
+               name='CMU_Move_In_Hub')
