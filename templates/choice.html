@@ -2,16 +2,47 @@
 
 {% block title %}Housing Type{% endblock %}
 
+{% block styles %}
+    <style>
+        .ui.card {
+            font-size: 1.5em; /* Increase the font size */
+            width: 400px; /* Make the cards larger */
+            height: 250px; /* Adjust the card height */
+        }
+        .ui.cards {
+            justify-content: center; /* Center the cards horizontally */
+        }
+    </style>
+{% endblock %}
+
 {% block content %}
-    <h1>Type of housing you are looking for:</h1>
-    <form>
-        <label>
-            <input type="radio" name="option" value="short_term" onclick="navigateToPage(this.value)"> Short-term: Residence lasting several days, weeks, or months
-        </label><br>
-        <label>
-            <input type="radio" name="option" value="long_term" onclick="navigateToPage(this.value)"> Long-term: Residence of one year or more
-        </label>
-    </form>
+    <h1 class="ui header" style="text-align:center;">Type of housing you are looking for:</h1>
+
+    <div class="ui two cards centered">
+        <a class="ui card" href="{{ url_for('short_term') }}">
+            <div class="content">
+                <div class="header">Short-Term Housing</div>
+                <div class="meta">
+                    <span class="category">Housing</span>
+                </div>
+                <div class="description">
+                    <p>Residence lasting several days, weeks, or months.</p>
+                </div>
+            </div>
+        </a>
+        <a class="ui card" href="{{ url_for('long_term') }}">
+            <div class="content">
+                <div class="header">Long-Term Housing</div>
+                <div class="meta">
+                    <span class="category">Housing</span>
+                </div>
+                <div class="description">
+                    <p>Residence of one year or more.</p>
+                </div>
+            </div>
+        </a>
+    </div>
+
     <script>
         function navigateToPage(value) {
             if (value === 'short_term') {

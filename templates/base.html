@@ -3,23 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}CMU Move-In Hub{% endblock %}</title>
-    {% block styles %}{% endblock %}
-</head>
-<body>
-    <div class="container mt-3">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="navbar-nav">
-                <!-- Back to Last Page Button -->
-                <button class="btn btn-outline-secondary mr-2" onclick="window.history.back();">Back to Last Page</button>
-                <!-- Home Button -->
-                <a class="btn btn-primary" href="{{ url_for('welcome') }}">Home</a>
-            </div>
-        </nav>
 
-        <!-- Content that will be overridden by children templates -->
+    <title>{% block title %}CMU Move-In Hub{% endblock %}</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+
+    <style>
+        /* Fixed top navigation bar */
+        .fixed-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        /* Padding for the content to prevent overlap with fixed header */
+        body {
+            padding-top: 60px;
+        }
+
+        /* Footer styling */
+        .footer {
+            padding: 10px;
+            background-color: #f1f1f1;
+            text-align: center;
+            margin-top: 20px; /* Adds spacing before the footer */
+        }
+
+        /* Ensure content doesn't overlap with the footer */
+        .content-wrapper {
+            min-height: calc(100vh - 120px); /* Adjust for header and footer height */
+        }
+    </style>
+
+  {% block styles %}{% endblock %}
+</head>
+
+<body>
+    <!-- Fixed Navigation Bar -->
+    <div class="ui fixed-menu">
+        <div class="ui menu">
+            <a class="item" onclick="window.history.back();">
+                <i class="arrow left icon"></i> Back to Last Page
+            </a>
+            <a class="item" href="{{ url_for('welcome') }}">
+                <i class="home icon"></i> Home
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="ui container content-wrapper">
         {% block content %}
         {% endblock %}
     </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>CMU Move-In Hub | Group Green</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 </body>
 </html>
