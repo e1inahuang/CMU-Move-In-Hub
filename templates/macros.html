@@ -1,0 +1,23 @@
+{% macro pagination_controls(prefix, page, num_pages) %}
+<div class="ui pagination menu">
+    {% if page > 1 %}
+    <a class="item" href="{{ url_for(prefix, page=page-1) }}">Previous</a>
+    {% else %}
+    <div class="item disabled">Previous</div>
+    {% endif %}
+
+    {% for p in range(1, num_pages + 1) %}
+    {% if p == page %}
+    <div class="item active">{{ p }}</div>
+    {% else %}
+    <a class="item" href="{{ url_for(prefix, page=p) }}">{{ p }}</a>
+    {% endif %}
+    {% endfor %}
+
+    {% if page < num_pages %}
+    <a class="item" href="{{ url_for(prefix, page=page+1) }}">Next</a>
+    {% else %}
+    <div class="item disabled">Next</div>
+    {% endif %}
+</div>
+{% endmacro %}

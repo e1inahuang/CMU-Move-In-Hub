@@ -4,110 +4,84 @@
 
 {% block styles %}
     <style>
-        .container {
-            display: flex;
-            justify-content: space-between;
-        }
-        .table-container {
-            width: 45%;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
-        /* Button styling */
-        .button-container {
-            margin-top: 20px;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            font-size: 16px;
-            color: white;
-            background-color: #4CAF50;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .button:hover {
-            background-color: #45a049;
-        }
+    .two-table-container {
+        display: flex;  /* make elements horizontal align */
+        overflow-x: auto; /* allow horizontal scrolling */
+        overflow-y: auto; /* allow vertical scrolling */
+    }
+
+    .table-container {
+        flex: 1;
+        padding: 10px;
+        height: 80vh; /* set height based on the viewport height */
+        width: 50%;
+    }
+
+{#        .container {#}
+{#            display: flex;#}
+{#            justify-content: space-between;#}
+{#        }#}
+{#        .table-container {#}
+{#            width: 45%;#}
+{#        }#}
+{#        table {#}
+{#            width: 100%;#}
+{#            border-collapse: collapse;#}
+{#        }#}
+{#        table, th, td {#}
+{#            border: 1px solid black;#}
+{#        }#}
+{#        th, td {#}
+{#            padding: 8px;#}
+{#            text-align: left;#}
+{#        }#}
+{#        /* Button styling */#}
+{#        .button-container {#}
+{#            margin-top: 20px;#}
+{#        }#}
+{#        .button {#}
+{#            display: inline-block;#}
+{#            padding: 10px 20px;#}
+{#            margin: 10px;#}
+{#            font-size: 16px;#}
+{#            color: white;#}
+{#            background-color: #4CAF50;#}
+{#            text-decoration: none;#}
+{#            border-radius: 5px;#}
+{#            transition: background-color 0.3s;#}
+{#        }#}
+{#        .button:hover {#}
+{#            background-color: #45a049;#}
+{#        }#}
     </style>
 {% endblock %}
 
 {% block content %}
     <h1>Short-Term Housing</h1>
-    <div class="container">
+    <div class="two-table-container">
         <!-- Hotel Table -->
-        <div class="table-container">
+        <div class="table-container" id="hotel-container">
             <h2>Hotel</h2>
-            <table>
-                <tr>
-                    <th>Hotel Name</th>
-                    <th>Price</th>
-                    <th>Star</th>
-                    <th>Review</th>
-                    <th>Score</th>
-                    <th>Location</th>
-                </tr>
-                {% for row in hotel_data %}
-                <tr>
-                    <td>{{ row['Hotel Name'] }}</td>
-                    <td>{{ row['Price'] }}</td>
-                    <td>{{ row['Star'] }}</td>
-                    <td>{{ row['Review'] }}</td>
-                    <td>{{ row['Score'] }}</td>
-                    <td>{{ row['Location'] }}</td>
-                </tr>
-                {% endfor %}
-            </table>
+            {% include 'hotel.html' %}
         </div>
 
         <!-- Airbnb Table -->
-        <div class="table-container">
+        <div class="table-container" id="airbnb-container">
             <h2>Airbnb</h2>
-            <table>
-                <tr>
-                    <th>Apartment Name</th>
-                    <th>Average Rating</th>
-                    <th>Latitude</th>
-                    <th>Longitude</th>
-                    <th>Price</th>
-                    <th>Discount</th>
-                    <th>Save Money</th>
-                    <th>Character</th>
-                    <th>Room Type</th>
-                    <th>Pets Allowed</th>
-                    <th>Free Cancellation</th>
-                    <th>Amenities</th>
-                    <th>URL</th>
-                </tr>
-                {% for row in airbnb_data %}
-                <tr>
-                    <td>{{ row['Apartment Name'] }}</td>
-                    <td>{{ row['Average Rating'] }}</td>
-                    <td>{{ row['Latitude'] }}</td>
-                    <td>{{ row['Longitude'] }}</td>
-                    <td>{{ row['Price'] }}</td>
-                    <td>{{ row['Discount'] }}</td>
-                    <td>{{ row['Save Money'] }}</td>
-                    <td>{{ row['Character'] }}</td>
-                    <td>{{ row['Room Type'] }}</td>
-                    <td>{{ row['Pets_allowed'] }}</td>
-                    <td>{{ row['Free canceled'] }}</td>
-                    <td>{{ row['Amenities'] }}</td>
-                    <td><a href="{{ row['URL'] }}">Link</a></td>
-                </tr>
-                {% endfor %}
-            </table>
-        </div>
+            {% include 'airbnb.html' %}
     </div>
+
+    <script>
+        function loadHotelPage(page) {
+            $.get('{{ url_for("load_hotel_page") }}', {page: page}, function(data) {
+                $('#hotel-container').html(data);
+            });
+        }
+
+        function loadAirbnbPage(page) {
+            $.get('{{ url_for("load_airbnb_page") }}', {page: page}, function(data) {
+                $('#airbnb-container').html(data);
+            });
+        }
+    </script>
 {% endblock %}

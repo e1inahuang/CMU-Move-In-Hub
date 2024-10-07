@@ -1,0 +1,60 @@
+<div class="ui pagination menu">
+    {% if airbnb_page > 1 %}
+    <a class="item" onclick="loadAirbnbPage({{ airbnb_page-1 }})">Previous</a>
+    {% else %}
+    <div class="item disabled"> Previous</div>
+    {% endif %}
+
+    {% for p in range(1, total_airbnb_pages + 1) %}
+    {% if p == airbnb_page %}
+    <div class="item active">{{ p }}</div>
+    {% else %}
+    <a class="item" onclick="loadAirbnbPage({{ p }})">{{ p }}</a>
+    {% endif %}
+    {% endfor %}
+
+    {% if airbnb_page < total_airbnb_pages %}
+    <a class="item" onclick="loadAirbnbPage({{ airbnb_page + 1 }})">Next</a>
+    {% else %}
+    <div class="item disabled">Next</div>
+    {% endif %}
+</div>
+
+<table class="ui celled table">
+    <thead>
+        <tr>
+            <th>Apartment Name</th>
+            <th>Average Rating</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Price</th>
+            <th>Discount</th>
+            <th>Save Money</th>
+            <th>Character</th>
+            <th>Room Type</th>
+            <th>Pets Allowed</th>
+            <th>Free Cancellation</th>
+            <th>Amenities</th>
+            <th>URL</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for row in airbnb_data %}
+        <tr>
+            <td>{{ row['Apartment Name'] }}</td>
+            <td>{{ row['Average Rating'] }}</td>
+            <td>{{ row['Latitude'] }}</td>
+            <td>{{ row['Longitude'] }}</td>
+            <td>{{ row['Price'] }}</td>
+            <td>{{ row['Discount'] }}</td>
+            <td>{{ row['Save money'] }}</td>
+            <td>{{ row['Character'] }}</td>
+            <td>{{ row['Room Type'] }}</td>
+            <td>{{ row['Pets_allowed'] }}</td>
+            <td>{{ row['Free canceled'] }}</td>
+            <td><a href="{{ row['URL'] }}">Link</a></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
