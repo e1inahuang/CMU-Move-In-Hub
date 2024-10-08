@@ -4,49 +4,65 @@
 {% block title %}Long-Term Housing{% endblock %}
 
 {% block styles %}
-<style>
-    .accordion {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    .accordion th, .accordion td {
-        border: 1px solid black;
-        padding: 8px;
-        text-align: left;
-    }
-    .accordion th {
-        background-color: #f2f2f2;
-    }
-    .accordion .toggle-icon {
-        cursor: pointer;
-        font-weight: bold;
-        margin-right: 10px;
-    }
-    .hidden-row {
-        display: none;
-    }
-</style>
+    <style>
+        .accordion {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .accordion th, .accordion td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .accordion th {
+            background-color: #f2f2f2;
+        }
+
+        .accordion .toggle-icon {
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .hidden-row {
+            display: none;
+        }
+    </style>
 {% endblock %}
 
 {% block content %}
-<h1>Long-Term Housing Options</h1>
-<table class="accordion">
-    <thead>
+    <h1>Long-Term Housing Options</h1>
+
+{#    <label for="sort-dropdown">#}
+{#        <span>Sort by: </span>#}
+{#        <select class="ui dropdown" id="sort-dropdown">#}
+{#            <option value="" style="display:none">--Choose--</option>#}
+{#            <option value="Room Type">Room Type</option>#}
+{#            <option value="Unit Number">Unit Number</option>#}
+{#            <option value="Unit Price">Unit Price</option>#}
+{#            <option value="Unit Area">Unit Area</option>#}
+{#        </select>#}
+{#    </label>#}
+
+    <table class="accordion">
+        <thead>
         <tr>
             <th>Apartment Name</th>
         </tr>
-    </thead>
-    <tbody>
+        </thead>
+        <tbody>
         {% for name, rows in apartments.items() %}
-        <tr class="header-row" data-apartment="{{ name }}">
-            <td>
-                <span class="toggle-icon">&#9654;</span> {{ name }}
-            </td>
-        </tr>
-        <tr class="hidden-row" id="details-{{ name }}">
-            <td colspan="1">
-                <table class="ui celled striped table">
-                    <thead>
+            <tr class="header-row" data-apartment="{{ name }}">
+                <td>
+                    <span class="toggle-icon">&#9654;</span> {{ name }}
+                </td>
+            </tr>
+            <tr class="hidden-row" id="details-{{ name }}">
+                <td colspan="1">
+                    <table class="ui celled striped table">
+                        <thead>
                         <tr>
                             <th>Price</th>
                             <th>Size</th>
@@ -60,69 +76,79 @@
                             <th>Unit Area</th>
                             <th>Available Time</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         {% for row in rows %}
-                        <tr>
-                            <td>{{ row['Price'] }}</td>
-                            <td>{{ row['Address'] }}</td>
-                            <td>{{ row['Room'] }}</td>
-                            <td>{{ row['Amenities'] }}</td>
-                            <td>{{ row['Phone'] }}</td>
-                            <td><a href="{{ row['URL'] }}">Link</a></td>
-                            <td>{{ row['Room Type'] }}</td>
-                            <td>{{ row['Unit Number'] }}</td>
-                            <td>{{ row['Unit Price'] }}</td>
-                            <td>{{ row['Unit Area'] }}</td>
-                            <td>{{ row['Available Time'] }}</td>
-                        </tr>
+                            <tr>
+                                <td>{{ row['Price'] }}</td>
+                                <td>{{ row['Address'] }}</td>
+                                <td>{{ row['Room'] }}</td>
+                                <td>{{ row['Amenities'] }}</td>
+                                <td>{{ row['Phone'] }}</td>
+                                <td><a href="{{ row['URL'] }}">Link</a></td>
+                                <td>{{ row['Room Type'] }}</td>
+                                <td>{{ row['Unit Number'] }}</td>
+                                <td>{{ row['Unit Price'] }}</td>
+                                <td>{{ row['Unit Area'] }}</td>
+                                <td>{{ row['Available Time'] }}</td>
+                            </tr>
                         {% endfor %}
-                    </tbody>
-                </table>
-            </td>
-        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
         {% endfor %}
-    </tbody>
-</table>
+        </tbody>
+    </table>
 
-<!-- Pagination Controls -->
-{{ pagination_controls('long_term', page, num_pages) }}
+    <!-- Pagination Controls -->
+    {{ pagination_controls('long_term', page, num_pages) }}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const headers = document.querySelectorAll(".header-row");
 
-    document.addEventListener("DOMContentLoaded", function() {
-        const headers = document.querySelectorAll(".header-row");
+            headers.forEach(header => {
+                header.addEventListener("click", function () {
+                    const icon = header.querySelector(".toggle-icon");
+                    const apartmentName = header.getAttribute("data-apartment");
+                    const detailsRow = document.getElementById(`details-${apartmentName}`);
 
-        headers.forEach(header => {
-            header.addEventListener("click", function() {
-                const icon = header.querySelector(".toggle-icon");
-                const apartmentName = header.getAttribute("data-apartment");
-                const detailsRow = document.getElementById(`details-${apartmentName}`);
+                    // Hide all other rows
+                    document.querySelectorAll(".hidden-row").forEach(row => {
+                        if (row !== detailsRow) {
+                            row.style.display = "none";
+                        }
+                    });
 
-                // Hide all other rows
-                document.querySelectorAll(".hidden-row").forEach(row => {
-                    if (row !== detailsRow) {
-                        row.style.display = "none";
+                    // Reset all icons
+                    document.querySelectorAll(".toggle-icon").forEach(otherIcon => {
+                        if (otherIcon !== icon) {
+                            otherIcon.innerHTML = "&#9654;";
+                        }
+                    });
+
+                    // Toggle the current row
+                    if (detailsRow.style.display === "none" || detailsRow.style.display === "") {
+                        detailsRow.style.display = "table-row";
+                        icon.innerHTML = "&#9660;";
+                    } else {
+                        detailsRow.style.display = "none";
+                        icon.innerHTML = "&#9654;";
                     }
                 });
-
-                // Reset all icons
-                document.querySelectorAll(".toggle-icon").forEach(otherIcon => {
-                    if (otherIcon !== icon) {
-                        otherIcon.innerHTML = "&#9654;";
-                    }
-                });
-
-                // Toggle the current row
-                if (detailsRow.style.display === "none" || detailsRow.style.display === "") {
-                    detailsRow.style.display = "table-row";
-                    icon.innerHTML = "&#9660;";
-                } else {
-                    detailsRow.style.display = "none";
-                    icon.innerHTML = "&#9654;";
-                }
             });
         });
-    });
-</script>
+
+        $(document).ready(function () {
+            document.getElementById('sort-dropdown').value = '{{ current_sort }}';
+
+            // Handle sort change
+            $('#sort-dropdown').change(function () {
+                const sort_by = $(this).val();
+
+            });
+        });
+    </script>
 {% endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<table class="ui celled table">
+    <tr>
+        <th>Hotel Name</th>
+        <th>Price</th>
+        <th>Star</th>
+        <th>Review</th>
+        <th>Score</th>
+        <th>Location</th>
+    </tr>
+    {% for row in hotel_data %}
+    <tr>
+        <td>{{ row['Hotel Name'] }}</td>
+        <td>{{ row['Price'] }}</td>
+        <td>{{ row['Star'] }}</td>
+        <td>{{ row['Review'] }}</td>
+        <td>{{ row['Score'] }}</td>
+        <td>{{ row['Location'] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

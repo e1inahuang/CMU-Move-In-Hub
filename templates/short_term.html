@@ -4,55 +4,55 @@
 
 {% block styles %}
     <style>
-    .two-table-container {
-        display: flex;  /* make elements horizontal align */
-        overflow-x: auto; /* allow horizontal scrolling */
-        overflow-y: auto; /* allow vertical scrolling */
-    }
+        .two-table-container {
+            display: flex; /* make elements horizontal align */
+            overflow-x: auto; /* allow horizontal scrolling */
+            overflow-y: auto; /* allow vertical scrolling */
+        }
 
-    .table-container {
-        flex: 1;
-        padding: 10px;
-        height: 80vh; /* set height based on the viewport height */
-        width: 50%;
-    }
+        .table-container {
+            flex: 1;
+            padding: 10px;
+            height: 80vh; /* set height based on the viewport height */
+            width: 50%;
+        }
 
-{#        .container {#}
-{#            display: flex;#}
-{#            justify-content: space-between;#}
-{#        }#}
-{#        .table-container {#}
-{#            width: 45%;#}
-{#        }#}
-{#        table {#}
-{#            width: 100%;#}
-{#            border-collapse: collapse;#}
-{#        }#}
-{#        table, th, td {#}
-{#            border: 1px solid black;#}
-{#        }#}
-{#        th, td {#}
-{#            padding: 8px;#}
-{#            text-align: left;#}
-{#        }#}
-{#        /* Button styling */#}
-{#        .button-container {#}
-{#            margin-top: 20px;#}
-{#        }#}
-{#        .button {#}
-{#            display: inline-block;#}
-{#            padding: 10px 20px;#}
-{#            margin: 10px;#}
-{#            font-size: 16px;#}
-{#            color: white;#}
-{#            background-color: #4CAF50;#}
-{#            text-decoration: none;#}
-{#            border-radius: 5px;#}
-{#            transition: background-color 0.3s;#}
-{#        }#}
-{#        .button:hover {#}
-{#            background-color: #45a049;#}
-{#        }#}
+        {#        .container {#}
+        {#            display: flex;#}
+        {#            justify-content: space-between;#}
+        {#        }#}
+        {#        .table-container {#}
+        {#            width: 45%;#}
+        {#        }#}
+        {#        table {#}
+        {#            width: 100%;#}
+        {#            border-collapse: collapse;#}
+        {#        }#}
+        {#        table, th, td {#}
+        {#            border: 1px solid black;#}
+        {#        }#}
+        {#        th, td {#}
+        {#            padding: 8px;#}
+        {#            text-align: left;#}
+        {#        }#}
+        {#        /* Button styling */#}
+        {#        .button-container {#}
+        {#            margin-top: 20px;#}
+        {#        }#}
+        {#        .button {#}
+        {#            display: inline-block;#}
+        {#            padding: 10px 20px;#}
+        {#            margin: 10px;#}
+        {#            font-size: 16px;#}
+        {#            color: white;#}
+        {#            background-color: #4CAF50;#}
+        {#            text-decoration: none;#}
+        {#            border-radius: 5px;#}
+        {#            transition: background-color 0.3s;#}
+        {#        }#}
+        {#        .button:hover {#}
+        {#            background-color: #45a049;#}
+        {#        }#}
     </style>
 {% endblock %}
 
@@ -61,26 +61,28 @@
     <div class="two-table-container">
         <!-- Hotel Table -->
         <div class="table-container" id="hotel-container">
-            <h2>Hotel</h2>
             {% include 'hotel.html' %}
         </div>
 
         <!-- Airbnb Table -->
         <div class="table-container" id="airbnb-container">
-            <h2>Airbnb</h2>
             {% include 'airbnb.html' %}
+        </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <script>
-        function loadHotelPage(page) {
-            $.get('{{ url_for("load_hotel_page") }}', {page: page}, function(data) {
+        function loadHotelPage(page, sort_by = document.getElementById('hotel-sort-dropdown').value) {
+            $.get('{{ url_for("load_hotel_page") }}', {page: page, sort_by: sort_by}, function (data) {
                 $('#hotel-container').html(data);
             });
         }
 
-        function loadAirbnbPage(page) {
-            $.get('{{ url_for("load_airbnb_page") }}', {page: page}, function(data) {
+        function loadAirbnbPage(page, sort_by = document.getElementById('airbnb-sort-dropdown').value) {
+            $.get('{{ url_for("load_airbnb_page") }}', {page: page, sort_by: sort_by}, function (data) {
                 $('#airbnb-container').html(data);
+                console.log(data);
             });
         }
     </script>

@@ -27,11 +27,6 @@ def paginate(data, per_page, page):
     return data[start:end], page_count
 
 
-def sort_data(data, sort_by, order):
-    reverse = True if order == 'desc' else False
-    return sorted(data, key=lambda x: x[sort_by], reverse=reverse)
-
-
 @app.route('/test')
 def test():
     hotel_data = hotel_df.to_dict(orient='records')
@@ -40,24 +35,14 @@ def test():
 
 @app.route('/short_term')
 def short_term():
-    hotel_sort_by = request.args.get('sort_by', 'Hotel Name')
-    hotel_sort_order = request.args.get('sort_order', 'asc')
-    hotel_reverse = True if hotel_sort_order == 'desc' else False
-    hotel_sorted_df = sorted(hotel_df, key=lambda x: x.get(hotel_sort_by, ''), reverse=hotel_reverse)
-
     hotel_page = request.args.get('page', 1, type=int)
-    hotel_sliced_df, hotel_page_count = paginate(hotel_sorted_df, 20, hotel_page)
-    # hotel_sliced_df, hotel_page_count = paginate(hotel_df, 20, hotel_page)
+    # hotel_sliced_df, hotel_page_count = paginate(hotel_sorted_df, 20, hotel_page)
+    hotel_sliced_df, hotel_page_count = paginate(hotel_df, 20, hotel_page)
     hotel_data = hotel_sliced_df.to_dict(orient='records')
 
-    airbnb_sort_by = request.args.get('sort_by', 'Apartment Name')
-    airbnb_sort_order = request.args.get('sort_order', 'asc')
-    airbnb_reverse = True if airbnb_sort_order == 'desc' else False
-    airbnb_sorted_df = sorted(airbnb_df, key=lambda x: x.get(airbnb_sort_by, ''), reverse=airbnb_reverse)
-
     airbnb_page = request.args.get('page', 1, type=int)
-    airbnb_sliced_df, airbnb_page_count = paginate(airbnb_sorted_df, 20, airbnb_page)
-    # airbnb_sliced_df, airbnb_page_count = paginate(airbnb_df, 20, airbnb_page)
+    # airbnb_sliced_df, airbnb_page_count = paginate(airbnb_sorted_df, 20, airbnb_page)
+    airbnb_sliced_df, airbnb_page_count = paginate(airbnb_df, 20, airbnb_page)
     airbnb_data = airbnb_sliced_df.to_dict(orient='records')
 
     return render_template('short_term.html',
@@ -66,35 +51,52 @@ def short_term():
                            hotel_page=hotel_page,
                            airbnb_page=airbnb_page,
                            total_hotel_pages=hotel_page_count,
-                           total_airbnb_pages=airbnb_page_count)
+                           total_airbnb_pages=airbnb_page_count,
+                           hotel_current_sort='Hotel Name',
+                           airbnb_current_sort='Apartment Name')
 
 
 @app.route('/load_hotel_page')
 def load_hotel_page():
+    hotel_sort_by = request.args.get('sort_by', default='Hotel Name')
+    hotel_sort_order = request.args.get('sort_order', 'asc')
+    hotel_sorted_df = hotel_df.sort_values(by=hotel_sort_by, ascending=hotel_sort_order == 'asc')
+
     hotel_page = request.args.get('page', 1, type=int)
-    hotel_sliced_df, hotel_page_count = paginate(hotel_df, 20, hotel_page)
+    hotel_sliced_df, hotel_page_count = paginate(hotel_sorted_df, 20, hotel_page)
     hotel_data = hotel_sliced_df.to_dict(orient='records')
     return render_template('hotel.html',
                            hotel_data=hotel_data,
                            hotel_page=hotel_page,
-                           total_hotel_pages=hotel_page_count)
+                           total_hotel_pages=hotel_page_count,
+                           hotel_current_sort=hotel_sort_by)
 
 
 @app.route('/load_airbnb_page')
 def load_airbnb_page():
+    airbnb_sort_by = request.args.get('sort_by', default='Apartment Name')
+    airbnb_sort_order = request.args.get('sort_order', 'asc')
+    airbnb_sorted_df = airbnb_df.sort_values(by=airbnb_sort_by, ascending=airbnb_sort_order == 'asc')
+
     airbnb_page = request.args.get('page', 1, type=int)
-    airbnb_sliced_df, airbnb_page_count = paginate(airbnb_df, 20, airbnb_page)
+    airbnb_sliced_df, airbnb_page_count = paginate(airbnb_sorted_df, 20, airbnb_page)
     airbnb_data = airbnb_sliced_df.to_dict(orient='records')
     return render_template('airbnb.html',
                            airbnb_data=airbnb_data,
                            airbnb_page=airbnb_page,
-                           total_airbnb_pages=airbnb_page_count)
+                           total_airbnb_pages=airbnb_page_count,
+                           airbnb_current_sort=airbnb_sort_by)
 
 
 @app.route('/long_term')
 def long_term():
     page = request.args.get('page', default=1, type=int)
-    sliced_df, page_count = paginate(long_apart_df, 10, page)
+    sort_by = request.args.get('sort_by', default='Apartment Name')
+    sort_order = request.args.get('sort_order', default='asc')
+    long_sorted_df = long_apart_df.sort_values(by=sort_by, ascending=sort_order == 'asc')
+
+    sliced_df, page_count = paginate(long_sorted_df, 10, page)
+    # sliced_df, page_count = paginate(long_apart_df, 10, page)
     merged_df = pd.merge(sliced_df, long_room_df, on='Apartment Name', how="left")
     merged_dict = merged_df.groupby('Apartment Name').apply(
         lambda group: group.drop(columns='Apartment Name').to_dict('records')
