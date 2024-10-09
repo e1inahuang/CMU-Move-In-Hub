@@ -15,7 +15,7 @@ The app aggregates housing information through web scraping from various sources
   - [Zillow](https://www.zillow.com/)
 
 - **Short-Term Housing**:
-  - [Booking.com](https://www.booking.com/)
+  - [Kayak](https://www.kayak.com/)
   - [Airbnb](https://www.airbnb.com/)
 
 ## How to Install and Run the Project
@@ -44,5 +44,5 @@ Special thanks to the sources providing housing data:
 
 - **CMU Campus Housing**
 - **Zillow**
-- **Booking.com**
+- **Kayak**
 - **Airbnb**
