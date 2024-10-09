@@ -1,24 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
-<table class="ui celled table">
-    <tr>
-        <th>Hotel Name</th>
-        <th>Price</th>
-        <th>Star</th>
-        <th>Review</th>
-        <th>Score</th>
-        <th>Location</th>
-    </tr>
-    {% for row in hotel_data %}
-    <tr>
-        <td>{{ row['Hotel Name'] }}</td>
-        <td>{{ row['Price'] }}</td>
-        <td>{{ row['Star'] }}</td>
-        <td>{{ row['Review'] }}</td>
-        <td>{{ row['Score'] }}</td>
-        <td>{{ row['Location'] }}</td>
-    </tr>
-    {% endfor %}
-</table>
+
+        <div class="image-container">
+        <div class="image-item">
+            <h3>Long-term Housing: Monthly Rent per Bedroom Distribution</h3>
+            <img src="{{ url_for('static', filename='long_price.png') }}" alt="Long-term Housing Price Distribution">
+        </div>
+        <div class="image-item">
+            <h3>Hotel: Price per Room per Night Distribution</h3>
+            <img src="{{ url_for('static', filename='hotel_price.png') }}" alt="Hotel Price Distribution">
+        </div>
+        <div class="image-item">
+            <h3>Airbnb: Price per Room per Night Distribution</h3>
+            <img src="{{ url_for('static', filename='airbnb_price.png') }}" alt="Airbnb Price Distribution">
+        </div>
+    </div>
 
 {% endblock %}

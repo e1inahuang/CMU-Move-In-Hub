@@ -7,8 +7,13 @@
         .ui.card {
             font-size: 1.5em; /* Increase the font size */
             width: 400px; /* Make the cards larger */
-            height: 250px; /* Adjust the card height */
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+        {#height: 250px; /* Adjust the card height */#}
         }
+
         .ui.cards {
             justify-content: center; /* Center the cards horizontally */
         }
@@ -23,21 +28,46 @@
             <div class="content">
                 <div class="header">Short-Term Housing</div>
                 <div class="meta">
-                    <span class="category">Housing</span>
+                    <span class="category">Hotel / Airbnb</span>
                 </div>
                 <div class="description">
                     <p>Residence lasting several days, weeks, or months.</p>
                 </div>
+
+                <div class="image">
+                    <img src="{{ url_for('static', filename='hotel_price.png') }}" alt="Hotel Price Distribution"
+                         style="width: 100%; height: auto;">
+                    <div class="centered-text" style="color: black">Staying in Hotel: Monthly Rent per Bedroom
+                        Distribution
+                    </div>
+                </div>
+
+                <div class="image">
+                    <img src="{{ url_for('static', filename='airbnb_price.png') }}" alt="Hotel Price Distribution"
+                         style="width: 100%; height: auto;">
+                    <div class="centered-text" style="color: black">Renting with airbnb: Monthly Rent per Bedroom
+                        Distribution
+                    </div>
+
+                </div>
+
             </div>
         </a>
         <a class="ui card" href="{{ url_for('long_term') }}">
             <div class="content">
                 <div class="header">Long-Term Housing</div>
-                <div class="meta">
-                    <span class="category">Housing</span>
-                </div>
+
                 <div class="description">
                     <p>Residence of one year or more.</p>
+                </div>
+
+                <div class="image">
+                    <img src="{{ url_for('static', filename='long_price.png') }}"
+                         alt="Long-term Housing Price Distribution"
+                         style="width: 100%; height: auto;">
+                    <div class="centered-text" style="color: black">Long-term Housing: Monthly Rent per Bedroom
+                        Distribution
+                    </div>
                 </div>
             </div>
         </a>

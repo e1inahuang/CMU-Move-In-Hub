@@ -8,10 +8,13 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 
+    <link rel="icon" href="{{ url_for('static', filename='icon.ico') }}" type="image/x-icon">
+
     <style>
         body {
             overflow-y: scroll; /* Always show vertical scrollbar to prevent shifting content */
         }
+
         /* Fixed top navigation bar */
         .fixed-menu {
             position: fixed;
@@ -40,7 +43,7 @@
         }
     </style>
 
-  {% block styles %}{% endblock %}
+    {% block styles %}{% endblock %}
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
@@ -48,28 +51,28 @@
 </head>
 
 <body>
-    <!-- Fixed Navigation Bar -->
-    <div class="ui fixed-menu">
-        <div class="ui menu">
-            <a class="item" onclick="window.history.back();">
-                <i class="arrow left icon"></i> Back to Last Page
-            </a>
-            <a class="item" href="{{ url_for('welcome') }}">
-                <i class="home icon"></i> Home
-            </a>
-        </div>
+<!-- Fixed Navigation Bar -->
+<div class="ui fixed-menu">
+    <div class="ui menu">
+        <a class="item" onclick="window.history.back();">
+            <i class="arrow left icon"></i> Back to Last Page
+        </a>
+        <a class="item" href="{{ url_for('welcome') }}">
+            <i class="home icon"></i> Home
+        </a>
     </div>
+</div>
 
-    <!-- Main Content Area -->
-    <div class="ui container content-wrapper">
-        {% block content %}
-        {% endblock %}
-    </div>
+<!-- Main Content Area -->
+<div class="ui container content-wrapper">
+    {% block content %}
+    {% endblock %}
+</div>
 
-    <!-- Footer -->
-    <div class="footer">
-        <p>CMU Move-In Hub | Group Green</p>
-    </div>
+<!-- Footer -->
+<div class="footer">
+    <p>CMU Move-In Hub | Group Green</p>
+</div>
 
 </body>
 </html>

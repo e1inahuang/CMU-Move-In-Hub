@@ -1,25 +1,26 @@
-# Load the CSV data
-import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
 
-long_term_housing = pd.read_csv('data/long_term_housing.csv')
-apartments_detail = pd.read_csv('data/apartments_detail.csv')
+# Generate some random data for the histogram
+data = np.random.randn(1000)
 
+# Create the histogram using a colormap
+plt.figure(figsize=(10, 6))
+n, bins, patches = plt.hist(airbnb_df['Price'], bins=30, edgecolor='black')
 
-def paginate(data, per_page, page):
-    start = (page - 1) * per_page
-    end = start + per_page
-    page_count = len(data) // per_page + 1
-    return data[start:end], page_count
+# Apply the viridis colormap to the patches (bars)
+plt.cm.viridis
+for i, patch in enumerate(patches):
+    plt.setp(patch, 'facecolor', plt.cm.viridis(i / len(patches)))
 
+plt.title('Price Distribution of Airbnb Listings')
+plt.xlabel('Price')
+plt.ylabel('Frequency')
 
-sliced_df, page_count = paginate(long_term_housing, 10, 1)
+# Step 3: Save the plot as airbnb_price.png in the static folder
+plt.savefig(os.path.join(static_folder, 'airbnb_price.png'))
 
-merged_df = pd.merge(sliced_df, apartments_detail, on='Apartment Name', how="left")
-
-merged_dict = merged_df.groupby('Apartment Name').apply(
-    lambda group: group.drop(columns='Apartment Name').to_dict('records')
-).to_dict()
-
-for name, rows in merged_dict.items():
-    for i, row in enumerate(rows):
-        print(name, i, row)
+# Step 4: Close the plot to free up memory
+plt.close()
+# Save the plot as an image file
+plt.savefig('static/airbnb_price.png')

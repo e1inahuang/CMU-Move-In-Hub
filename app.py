@@ -29,8 +29,7 @@ def paginate(data, per_page, page):
 
 @app.route('/test')
 def test():
-    hotel_data = hotel_df.to_dict(orient='records')
-    return render_template('test.html', hotel_data=hotel_data)
+    return render_template('test.html')
 
 
 @app.route('/short_term')
