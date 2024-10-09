@@ -35,17 +35,6 @@
 {% block content %}
     <h1>Long-Term Housing Options</h1>
 
-{#    <label for="sort-dropdown">#}
-{#        <span>Sort by: </span>#}
-{#        <select class="ui dropdown" id="sort-dropdown">#}
-{#            <option value="" style="display:none">--Choose--</option>#}
-{#            <option value="Room Type">Room Type</option>#}
-{#            <option value="Unit Number">Unit Number</option>#}
-{#            <option value="Unit Price">Unit Price</option>#}
-{#            <option value="Unit Area">Unit Area</option>#}
-{#        </select>#}
-{#    </label>#}
-
     <table class="accordion">
         <thead>
         <tr>
@@ -138,16 +127,6 @@
                         icon.innerHTML = "&#9654;";
                     }
                 });
-            });
-        });
-
-        $(document).ready(function () {
-            document.getElementById('sort-dropdown').value = '{{ current_sort }}';
-
-            // Handle sort change
-            $('#sort-dropdown').change(function () {
-                const sort_by = $(this).val();
-
             });
         });
     </script>

@@ -27,20 +27,13 @@ def paginate(data, per_page, page):
     return data[start:end], page_count
 
 
-@app.route('/test')
-def test():
-    return render_template('test.html')
-
-
 @app.route('/short_term')
 def short_term():
     hotel_page = request.args.get('page', 1, type=int)
-    # hotel_sliced_df, hotel_page_count = paginate(hotel_sorted_df, 20, hotel_page)
     hotel_sliced_df, hotel_page_count = paginate(hotel_df, 20, hotel_page)
     hotel_data = hotel_sliced_df.to_dict(orient='records')
 
     airbnb_page = request.args.get('page', 1, type=int)
-    # airbnb_sliced_df, airbnb_page_count = paginate(airbnb_sorted_df, 20, airbnb_page)
     airbnb_sliced_df, airbnb_page_count = paginate(airbnb_df, 20, airbnb_page)
     airbnb_data = airbnb_sliced_df.to_dict(orient='records')
 
@@ -95,13 +88,11 @@ def long_term():
     long_sorted_df = long_apart_df.sort_values(by=sort_by, ascending=sort_order == 'asc')
 
     sliced_df, page_count = paginate(long_sorted_df, 10, page)
-    # sliced_df, page_count = paginate(long_apart_df, 10, page)
     merged_df = pd.merge(sliced_df, long_room_df, on='Apartment Name', how="left")
     merged_dict = merged_df.groupby('Apartment Name').apply(
         lambda group: group.drop(columns='Apartment Name').to_dict('records')
     ).to_dict()
 
-    # Pass data to the template
     return render_template('long_term.html',
                            apartments=merged_dict,
                            enumerate=enumerate,
@@ -110,4 +101,4 @@ def long_term():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
