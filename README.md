@@ -11,12 +11,32 @@ Welcome to the CMU Move-In Hub! This app is designed to help students and facult
 The app aggregates housing information through web scraping from various sources, ensuring a comprehensive and up-to-date selection of options:
 
 - **Long-Term Housing**:
-  - CMU Campus Housing
-  - Zillow
+  - [CMU Campus Housing](https://offcampus.housing.cmu.edu/listing)
+  - [Zillow](https://www.zillow.com/)
 
 - **Short-Term Housing**:
-  - Booking.com
-  - Airbnb
+  - [Booking.com](https://www.booking.com/)
+  - [Airbnb](https://www.airbnb.com/)
+
+## How to Install and Run the Project
+
+### Flask part
+
+Pakckages:
+
+- pandas~=2.2.2
+
+- flask~=3.0.3
+
+- matplotlib~=3.9.2
+
+Style package: [Semantic UI](https://semantic-ui.com/)
+
+Run [Flask/app.py](https://github.com/e1inahuang/CMU-Move-In-Hub/blob/master/Flask/app.py)
+
+## How to Use the Project
+
+Our project is published with [PythonAnyhere](https://www.pythonanywhere.com/) on https://serenaqx.pythonanywhere.com/
 
 ## Acknowledgments
 
